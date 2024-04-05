@@ -11,6 +11,10 @@
 body {
   font-family: 'Trirong', serif, 'DM Sans', 'Roboto Condensed', 'Fjalla One',
     sans-serif !important;
+  h1 {
+    font-size: 50px;
+    font-weight: 300;
+  }
 }
 
 :root {

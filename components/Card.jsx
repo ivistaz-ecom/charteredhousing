@@ -3,10 +3,13 @@ const Card = ({ cardItems }) => {
   return (
     <div className="card custom-card border-0" style={{ width: '28rem' }}>
       <img src={imageUrl} className="card-img-top rounded-0" alt={title} />
-      <div className="card-body">
+      <div className="card-body d-flex flex-column align-items-start ">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <a href="#" className="btn btn-primary rounded-0 enquire-btn border-0">
+        <a
+          href="#"
+          className="btn btn-primary rounded-0 enquire-btn border-0 mt-auto"
+        >
           Continue reading
         </a>
       </div>
