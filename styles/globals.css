@@ -292,3 +292,7 @@ button.slick-arrow.slick-prev {
   left: 25%;
   margin-top: -85px !important;
 }
+
+.accordion-custom-btn {
+  background-color: #f4f4f4 !important;
+}
