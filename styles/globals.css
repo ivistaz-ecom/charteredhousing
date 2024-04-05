@@ -288,5 +288,7 @@ button.slick-arrow.slick-prev {
 }
 
 .slider {
-  margin-top: -32px !important;
+  position: absolute;
+  left: 25%;
+  margin-top: -85px !important;
 }

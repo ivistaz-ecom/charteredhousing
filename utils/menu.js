@@ -334,28 +334,28 @@ export const projectsMenu = [
   },
 ]
 
-export const carousel = [
-  {
-    id: 1,
-    imageUrl: '/ongoingProject/Night_shot.png',
-    thumbnailUrl: '/ongoingProject/Group 49907.png',
-  },
-  {
-    id: 2,
-    imageUrl: '/ongoingProject/Night_shot.png',
-    thumbnailUrl: '/ongoingProject/Group 49907.png',
-  },
-  {
-    id: 3,
-    imageUrl: '/ongoingProject/Night_shot.png',
-    thumbnailUrl: '/ongoingProject/Group 49907.png',
-  },
-  {
-    id: 4,
-    imageUrl: '/ongoingProject/Night_shot.png',
-    thumbnailUrl: '/ongoingProject/Group 49907.png',
-  },
-]
+// export const carousel = [
+//   {
+//     id: 1,
+//     imageUrl: '/ongoingProject/Night_shot.png',
+//     thumbnailUrl: '/ongoingProject/Group 49907.png',
+//   },
+//   {
+//     id: 2,
+//     imageUrl: '/ongoingProject/Night_shot.png',
+//     thumbnailUrl: '/ongoingProject/Group 49907.png',
+//   },
+//   {
+//     id: 3,
+//     imageUrl: '/ongoingProject/Night_shot.png',
+//     thumbnailUrl: '/ongoingProject/Group 49907.png',
+//   },
+//   {
+//     id: 4,
+//     imageUrl: '/ongoingProject/Night_shot.png',
+//     thumbnailUrl: '/ongoingProject/Group 49907.png',
+//   },
+// ]
 
 export const amenities = [
   {

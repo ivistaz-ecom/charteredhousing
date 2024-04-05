@@ -43,81 +43,59 @@ const page = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <div className="d-flex flex-column align-items-center">
-              <div className="">
-                <SliderCom />
-              </div>
+          <Col className="d-flex flex-column align-items-center">
+            <SliderCom />
 
-              {/* <ul className="d-flex gap-3 thumbnail-position">
-                {carousel.map((item) => {
-                  return (
-                    <li key={item.id}>
-                      <Button variant="btn" className="border">
-                        <Image
-                          src={item.thumbnailUrl}
-                          alt="thumbnail"
-                          width={100}
-                          height={50}
-                        />
-                      </Button>
-                    </li>
-                  )
-                })}
-              </ul> */}
+            <div className="ms-5 mt-5 ps-5 w-75">
+              <h1>THE STORY</h1>
+              <div className="horizontal-line mb-4" />
+              <p>
+                The project proudly stands on a piece of land allotted at the
+                instance of the then King of Mysore to the parents of the
+                current owners in the year 1956. That is indeed a year so
+                memorable and hence, we chose to name the project Chartered
+                1956. It symbolizes a bridge between the storied past and the
+                present, offering a place where history is not just remembered
+                but lived. This connection to royalty enriches its significance
+                as we weave tales of architectural brilliance for generations to
+                come, leading to luxcious living.
+              </p>
+            </div>
 
-              <div className="ms-5 mt-5 ps-5 w-75">
-                <h1>THE STORY</h1>
-                <div className="horizontal-line mb-4" />
+            <div className="ms-5 mt-5 ps-5 w-75">
+              <h3 className="fw-light mb-3">HIGHLIGHTS</h3>
+              <div className="highlight-border p-3">
                 <p>
-                  The project proudly stands on a piece of land allotted at the
-                  instance of the then King of Mysore to the parents of the
-                  current owners in the year 1956. That is indeed a year so
-                  memorable and hence, we chose to name the project Chartered
-                  1956. It symbolizes a bridge between the storied past and the
-                  present, offering a place where history is not just remembered
-                  but lived. This connection to royalty enriches its
-                  significance as we weave tales of architectural brilliance for
-                  generations to come, leading to luxcious living.
+                  <span className="fw-bold">Launch Date:</span> 15 January 2024
+                </p>
+                <hr />
+                <p>
+                  <span className="fw-bold">Location:</span>
+                  <span>
+                    {' '}
+                    Vasanthnagar, Palace Road (part of Bengaluru’s Central
+                    Business District-CBD) Opp. Mt. Carmel’s College, near
+                    Shangri-La Hotel
+                  </span>
                 </p>
               </div>
+            </div>
 
-              <div className="ms-5 mt-5 ps-5 w-75">
-                <h3 className="fw-light mb-3">HIGHLIGHTS</h3>
-                <div className="highlight-border p-3">
-                  <p>
-                    <span className="fw-bold">Launch Date:</span> 15 January
-                    2024
-                  </p>
-                  <hr />
-                  <p>
-                    <span className="fw-bold">Location:</span>
-                    <span>
-                      {' '}
-                      Vasanthnagar, Palace Road (part of Bengaluru’s Central
-                      Business District-CBD) Opp. Mt. Carmel’s College, near
-                      Shangri-La Hotel
-                    </span>
-                  </p>
-                </div>
-              </div>
-
-              <div className="ms-5 mt-5 ps-5 w-75">
-                <h3 className="fw-light mb-3">PROJECT DETAILS</h3>
-                <div className="highlight-border p-3">
-                  <ul className="d-flex flex-wrap project-details-list-con">
-                    <li>9-floor apartment</li>
-                    <li>7 boutique apartments, 1 each floor</li>
-                    <li>Each apartment ranging between 14 -15 CR</li>
-                    <li>Lift into the personal lobby on each floor</li>
-                    <li>5400 sft with 4 BHK + 4 bathrooms</li>
-                    <li>Separate maid’s quarters</li>
-                    <li>
-                      Separate service lift behind the kitchen for the maids or
-                      food/parcel delivery
-                    </li>
-                  </ul>
-                </div>
+            <div className="ms-5 mt-5 ps-5 w-75">
+              <h3 className="fw-light mb-3">PROJECT DETAILS</h3>
+              <div className="highlight-border p-3">
+                <ul className="d-flex flex-wrap project-details-list-con">
+                  <li>9-floor apartment</li>
+                  <li>7 boutique apartments, 1 each floor</li>
+                  <li>Each apartment ranging between 14 -15 CR</li>
+                  <li>Lift into the personal lobby on each floor</li>
+                  <li>5400 sft with 4 BHK + 4 bathrooms</li>
+                  <li>Separate maid’s quarters</li>
+                  <li>
+                    Separate service lift behind the kitchen for the maids or
+                    food/parcel delivery
+                  </li>
+                </ul>
               </div>
             </div>
           </Col>

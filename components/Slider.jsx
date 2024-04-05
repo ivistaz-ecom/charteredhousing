@@ -79,10 +79,10 @@ function Partners() {
 
   return (
     <>
-      <div className="text-center py-4 p-4 z-0">
+      <div className="text-center p-4">
         <div className="my-3">
-          <div className="container p-5">
-            <div className="slider-container p-5 -z-5 mx-auto">
+          <div className="container">
+            <div className="slider-container">
               <Slider
                 asNavFor={nav2}
                 ref={(slider) => (sliderRef1 = slider)}
@@ -121,50 +121,51 @@ function Partners() {
                   />
                 </div>
               </Slider>
-
-              <Slider
-                asNavFor={nav1}
-                ref={(slider) => (sliderRef2 = slider)}
-                slidesToShow={4}
-                className={'slider-variable slider'}
-                swipeToSlide={true}
-                focusOnSelect={true}
-                dots={false}
-                arrows={false}
-              >
-                <div>
-                  <Image
-                    src="/ongoingProject/Project image 1.jpg"
-                    className="border border-white"
-                    width={134}
-                    height={69}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/ongoingProject/Project image 2.jpg"
-                    className="border border-white"
-                    width={134}
-                    height={69}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/ongoingProject/Project image 3.jpg"
-                    className="border border-white"
-                    width={134}
-                    height={69}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/ongoingProject/Project image 4.jpg"
-                    className="border border-white"
-                    width={134}
-                    height={69}
-                  />
-                </div>
-              </Slider>
+              <div className="w-50 slider">
+                <Slider
+                  asNavFor={nav1}
+                  ref={(slider) => (sliderRef2 = slider)}
+                  slidesToShow={4}
+                  className={'slider-variable'}
+                  swipeToSlide={true}
+                  focusOnSelect={true}
+                  dots={false}
+                  arrows={false}
+                >
+                  <div>
+                    <Image
+                      src="/ongoingProject/Project image 1.jpg"
+                      className="border border-5 border-light"
+                      width={134}
+                      height={69}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      src="/ongoingProject/Project image 2.jpg"
+                      className="border border-5 border-light"
+                      width={134}
+                      height={69}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      src="/ongoingProject/Project image 3.jpg"
+                      className="border border-5 border-light"
+                      width={134}
+                      height={69}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      src="/ongoingProject/Project image 4.jpg"
+                      className="border border-5 border-light"
+                      width={134}
+                      height={69}
+                    />
+                  </div>
+                </Slider>
+              </div>
             </div>
           </div>
         </div>
