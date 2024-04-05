@@ -40,14 +40,14 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="/ongoing-project">
+                  <Link className="dropdown-item" href="/ongoing-project">
                     Ongoing
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/completed-project">
+                  <Link className="dropdown-item" href="/completed-project">
                     Completed
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -63,14 +63,14 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="/our-story-page-1">
+                  <Link className="dropdown-item" href="/our-story-page-1">
                     Our Story
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/our-story-page-2">
+                  <Link className="dropdown-item" href="/our-story-page-2">
                     Location
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -86,9 +86,9 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="/our-story-page-3">
+                  <Link className="dropdown-item" href="/our-story-page-3">
                     CSR
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
