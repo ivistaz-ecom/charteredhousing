@@ -233,6 +233,7 @@ body {
   justify-content: flex-end;
   width: 45%;
   color: #fff;
+  cursor: pointer;
   :hover {
     background-color: #fff;
     color: #000;

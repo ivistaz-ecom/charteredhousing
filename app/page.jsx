@@ -12,7 +12,8 @@ const Home = () => {
     <>
       <section className="mb-5">
         <div className="home-banner mt-5 p-5">
-          <div className="m-5 p-5">
+          <Container></Container>
+          <div className="ms-5 p-5">
             <h1>
               CHARTERED <br /> HOUSING
             </h1>

@@ -8,14 +8,14 @@ const page = () => {
     <>
       <section className="mb-5">
         <div>
-          <img src="/storyPage1/Mask Group 264.png" className="w-100" />
+          <img src="/storyPage1/Mask Group 272@2x.png" className="w-100" />
         </div>
       </section>
 
       <Container className="mt-5 p-5">
         <Row className="ps-5 pe-5">
           <Col>
-            <h1 className="">
+            <h1>
               OUR <br /> STORY
             </h1>
             <div className="horizontal-line" />
