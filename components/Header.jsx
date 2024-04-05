@@ -4,14 +4,14 @@ import { Button } from 'react-bootstrap'
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top navbar-bg ps-4 pe-4 pt-3 pb-3">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg sticky-top navbar-bg pt-3 pb-3">
+      <div className="container">
+        <a className="navbar-brand" href="/">
           <Image
             src="/logo/logo.png"
             alt="chartered logo"
-            width={80}
-            height={120}
+            width={70}
+            height={115}
             className="logo"
           />
         </a>
@@ -40,12 +40,12 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/ongoing-project">
                     Ongoing
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/completed-project">
                     Completed
                   </a>
                 </li>
@@ -63,12 +63,12 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/our-story-page-1">
                     Our Story
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/our-story-page-2">
                     Location
                   </a>
                 </li>
@@ -86,13 +86,13 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/our-story-page-3">
                     CSR
                   </a>
                 </li>
               </ul>
             </li>
-            <Button className="rounded-0 border-0 enquire-btn">
+            <Button className="rounded-0 border-0 enquire-btn ms-4">
               Enquire Now
             </Button>
           </ul>

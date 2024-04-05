@@ -2,9 +2,9 @@ const Footer = () => {
   return (
     <>
       <section>
-        <div className="footer-bg1 p-5 d-flex justify-content-around align-items-center">
+        <div className="footer-bg1 p-5 d-flex justify-content-evenly align-items-center">
           <div>
-            <p className="rotated-text">CHARTERED HOUSING</p>
+            <h2 className="rotated-text">CHARTERED HOUSING</h2>
           </div>
           <div className="footer-content-con w-75">
             <h1>CONNECT WITH US</h1>

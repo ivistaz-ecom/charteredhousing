@@ -1,6 +1,6 @@
-import Card from '@components/Card'
-import { cardMenu } from '@utils/menu'
-import { Container, Row, Col } from 'react-bootstrap'
+import Blogs from '@components/Blogs'
+import { blogsMenu } from '@utils/menu'
+import { Container } from 'react-bootstrap'
 
 const page = () => {
   return (
@@ -10,6 +10,11 @@ const page = () => {
           <img src="/storyPage2/Mask Group 264@2x.png" className="w-100" />
         </div>
       </section>
+      <Container>
+        {blogsMenu.map((item) => (
+          <Blogs key={item.id} blogsItem={item} />
+        ))}
+      </Container>
     </>
   )
 }

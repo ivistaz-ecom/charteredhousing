@@ -11,28 +11,24 @@ const page = () => {
         </div>
       </section>
 
-      <section className="mb-5">
-        <Container>
-          <Row>
-            <Col>
-              <h1>CSR ACTIVITIES</h1>
-              <div className="horizontal-line" />
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <Container className="mb-5 p-5">
+        <Row className="ps-5 pe-5">
+          <Col>
+            <h1>CSR ACTIVITIES</h1>
+            <div className="horizontal-line" />
+          </Col>
+        </Row>
+      </Container>
 
-      <section>
-        <Container>
-          <Row>
-            <Col className="d-flex justify-content-center pb-5 gap-3 flex-wrap">
-              {cardMenu.map((item) => (
-                <Card key={item.id} cardItems={item} />
-              ))}
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <Container>
+        <Row>
+          <Col className="d-flex justify-content-center pb-5 gap-3 flex-wrap">
+            {cardMenu.map((item) => (
+              <Card key={item.id} cardItems={item} />
+            ))}
+          </Col>
+        </Row>
+      </Container>
     </>
   )
 }
