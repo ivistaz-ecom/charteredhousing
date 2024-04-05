@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fjalla+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift');
 
 * {
@@ -9,7 +9,8 @@
 }
 
 body {
-  font-family: 'Trirong', serif, 'DM Sans', sans-serif !important;
+  font-family: 'Trirong', serif, 'DM Sans', 'Roboto Condensed', 'Fjalla One',
+    sans-serif !important;
 }
 
 :root {
@@ -65,6 +66,10 @@ body {
   }
 }
 
+.follow-us-con {
+  background-color: #d5d5d5;
+}
+
 .rotated-text {
   transform: matrix(0, -1, 1, 0, 0, 0);
   font: 200 27px/85px 'DM Sans';
@@ -115,7 +120,20 @@ body {
 }
 
 .chartered-1956 {
-  background: #fff;
+  background-color: #fff;
+  position: absolute;
+  margin-top: -120px;
+  padding: 20px;
+  p {
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    font-weight: 400;
+  }
+  h1 {
+    font-family: 'Fjalla One';
+    font-size: 75px;
+    color: #ec1d23;
+  }
 }
 
 .thumbnail-position {
@@ -245,4 +263,30 @@ body {
   li::marker {
     color: #ec1d23;
   }
+}
+
+.slider-con {
+  margin-top: -50px;
+}
+
+.slick-list {
+  text-align: -webkit-center;
+}
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+  /* background: green !important; */
+  width: 100px;
+  height: 100px;
+}
+.slick-next:before {
+  /* font-size: 85px !important; */
+  content: url('/ongoingProject/Group 49810.svg') !important;
+}
+.slick-prev:after {
+  /* font-size: 85px !important; */
+  content: url('/ongoingProject/Group 49811.svg') !important;
+}
+
+.slider {
+  margin-top: -32px !important;
 }

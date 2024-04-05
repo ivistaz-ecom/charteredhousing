@@ -2,6 +2,7 @@ import BankLogo from '@components/BankLogo'
 import { amenities, banksLogo, carousel } from '@utils/menu'
 import Image from 'next/image'
 import { Container, Row, Col, Button } from 'react-bootstrap'
+import SliderCom from '../../components/Slider'
 
 const page = () => {
   return (
@@ -12,7 +13,7 @@ const page = () => {
         </div>
       </section>
 
-      <Container className="mt-5 p-5">
+      <Container className="mt-5 p-5 mb-5">
         <Row className="ps-5 pe-5">
           <Col>
             <h1>
@@ -32,42 +33,23 @@ const page = () => {
         </Row>
       </Container>
 
-      <div className="text-center chartered-1956">
-        <p>CHARTERED</p>
-        <h1>1956</h1>
-      </div>
-
-      <Container className="border p-0">
+      <Container className="border p-0 slider-con mt-5">
+        <Row>
+          <Col className="d-flex justify-content-center mt-4">
+            <div className="text-center chartered-1956">
+              <p>CHARTERED</p>
+              <h1>1956</h1>
+            </div>
+          </Col>
+        </Row>
         <Row>
           <Col>
-            <div className="d-flex flex-column align-items-center p-5">
-              <div className="d-flex justify-content-center align-items-center">
-                <Button variant="btn">
-                  <Image
-                    src="/ongoingProject/Group 49811.svg"
-                    alt="left-arrow"
-                    width={50}
-                    height={50}
-                  />
-                </Button>
-
-                <Image
-                  src="/ongoingProject/Night_shot.png"
-                  alt="image"
-                  width={750}
-                  height={550}
-                />
-                <Button variant="btn">
-                  <Image
-                    src="/ongoingProject/Group 49810.svg"
-                    alt="right-arrow"
-                    width={50}
-                    height={50}
-                  />
-                </Button>
+            <div className="d-flex flex-column align-items-center">
+              <div className="">
+                <SliderCom />
               </div>
 
-              <ul className="d-flex gap-3 thumbnail-position">
+              {/* <ul className="d-flex gap-3 thumbnail-position">
                 {carousel.map((item) => {
                   return (
                     <li key={item.id}>
@@ -82,7 +64,7 @@ const page = () => {
                     </li>
                   )
                 })}
-              </ul>
+              </ul> */}
 
               <div className="ms-5 mt-5 ps-5 w-75">
                 <h1>THE STORY</h1>
