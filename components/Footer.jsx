@@ -43,6 +43,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
+
       <section>
         <div className="footer-bg2 p-3 pt-4 d-flex justify-content-between">
           <div>

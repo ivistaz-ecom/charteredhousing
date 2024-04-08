@@ -4,9 +4,9 @@ import { Button } from 'react-bootstrap'
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top navbar-bg pt-3 pb-3">
-      <div className="container">
-        <a className="navbar-brand" href="/">
+    <nav className="navbar navbar-expand-lg sticky-top navbar-bg p-4">
+      <div className="container-fluid">
+        <Link className="navbar-brand" href="/">
           <Image
             src="/logo/logo.png"
             alt="chartered logo"
@@ -14,7 +14,7 @@ const Header = () => {
             height={115}
             className="logo"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 body {
@@ -40,7 +40,7 @@ body {
 }
 
 .horizontal-line {
-  width: 100px;
+  width: 110px;
   height: 1px;
   background-color: var(--black-color-line);
 }
@@ -93,7 +93,7 @@ body {
 }
 
 .horizontal-line-red {
-  width: 100%;
+  width: 110px;
   height: 1px;
   background-color: #ed1c25;
 }
@@ -208,11 +208,7 @@ body {
 .testimonials-bg {
   background-image: url('/homePage/Group 49908@2x.png');
   background-size: cover;
-  height: 70vh;
-}
-
-.testimonials-card {
-  margin-top: -200px;
+  height: 80vh;
 }
 
 .leader-bg {
