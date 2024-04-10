@@ -9,7 +9,7 @@ const Header = () => {
         <Link className="navbar-brand" href="/">
           <Image
             src="/logo/logo.png"
-            alt="chartered logo"
+            alt="logo"
             width={70}
             height={115}
             className="logo"
@@ -26,8 +26,11 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav ms-auto">
+        <div
+          className="collapse navbar-collapse mt-5 mt-lg-0"
+          id="navbarNavDropdown"
+        >
+          <ul className="navbar-nav ms-auto mt-4 mt-lg-0">
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -63,12 +66,12 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" href="/our-story-page-1">
+                  <Link className="dropdown-item" href="/our-story">
                     Our Story
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/our-story-page-2">
+                  <Link className="dropdown-item" href="/location">
                     Location
                   </Link>
                 </li>
@@ -86,13 +89,13 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" href="/our-story-page-3">
+                  <Link className="dropdown-item" href="/csr">
                     CSR
                   </Link>
                 </li>
               </ul>
             </li>
-            <Button className="rounded-0 border-0 enquire-btn ms-4">
+            <Button className="rounded-0 border-0 enquire-btn ms-lg-4 mt-2 mt-md-0 align-self-start">
               Enquire Now
             </Button>
           </ul>

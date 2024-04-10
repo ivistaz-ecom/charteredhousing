@@ -13,31 +13,32 @@ const Blogs = ({ blogsItem }) => {
   } = blogsItem
 
   return (
-    <Container className="p-5 mt-5">
-      <Row className="ps-5 pe-5">
-        <Col>
-          <h1 className="w-50">{title}</h1>
-          <div className="horizontal-line" />
-        </Col>
-      </Row>
-
+    <Container>
       <Row>
-        <Col sm={7} className="ms-auto">
-          <p>{description1}</p>
-          <p>{description2}</p>
-          <p>{description3}</p>
+        <Col xs={12}>
+          <div className="p-md-5 mx-md-5">
+            <h1 className="w-50">{title}</h1>
+            <div className="horizontal-line mb-4" />
+          </div>
+        </Col>
+        <Col xs={12} md={7} className="ms-md-auto">
+          <div>
+            <p>{description1}</p>
+            <p>{description2}</p>
+            <p>{description3}</p>
+          </div>
         </Col>
 
-        <Row className="d-flex flex-column">
-          <Col sm={9} className="ms-auto">
+        <Col xs={12} md={9} className="ms-md-auto">
+          <div className="mb-5">
             <img src={imageUrl} alt={name} className="w-100 mt-4" />
             <h4 className="fw-light mt-4">{name}</h4>
             <p className="mt-4 w-75">{details}</p>
             <Button className="rounded-0 border-0 enquire-btn mt-4">
               Read More
             </Button>
-          </Col>
-        </Row>
+          </div>
+        </Col>
       </Row>
     </Container>
   )

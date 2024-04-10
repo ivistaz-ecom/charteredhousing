@@ -16,13 +16,13 @@ const page = () => {
 
       <Container className="mt-5 p-5">
         <Row className="ps-5 pe-5">
-          <Col>
+          <Col xs={12} md={6}>
             <h1>
               COMPLETED <br /> PROJECTS
             </h1>
-            <div className="horizontal-line" />
+            <div className="horizontal-line mb-4" />
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <p>
               In the last 3 decades, we’ve built the best apartments in
               Bangalore. It’s the same with luxury villas as well. All our

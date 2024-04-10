@@ -11,18 +11,15 @@ const page = () => {
         </div>
       </section>
 
-      <Container className="mb-5 p-5">
-        <Row className="ps-5 pe-5">
-          <Col>
-            <h1>CSR ACTIVITIES</h1>
-            <div className="horizontal-line" />
-          </Col>
-        </Row>
-      </Container>
-
       <Container>
         <Row>
-          <Col className="d-flex justify-content-center pb-5 gap-3 flex-wrap">
+          <Col xs={12}>
+            <div className="p-md-5 mx-md-5">
+              <h1>CSR ACTIVITIES</h1>
+              <div className="horizontal-line mb-4" />
+            </div>
+          </Col>
+          <Col className="d-flex justify-content-center pb-5 gap-4 flex-wrap">
             {cardMenu.map((item) => (
               <Card key={item.id} cardItems={item} />
             ))}

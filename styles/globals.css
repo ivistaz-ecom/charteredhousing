@@ -56,11 +56,6 @@ body {
     opacity: 0.74;
     margin-bottom: 10px;
   }
-  h1 {
-    font-size: 3rem;
-    font-weight: 300;
-    margin-bottom: 15px;
-  }
 }
 
 .footer-bg2 {
@@ -74,14 +69,12 @@ body {
   background-color: #d5d5d5;
 }
 
-.rotated-text {
-  transform: matrix(0, -1, 1, 0, 0, 0);
-  font: 200 27px/85px 'DM Sans';
+.vertical-text {
+  font: 200 27px 'DM Sans';
   letter-spacing: 0.48px;
   color: #acacac;
-  position: absolute;
-  top: auto;
-  left: 0;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 
 .custom-border {
@@ -181,7 +174,9 @@ body {
 
 .home-banner {
   background-image: url('/homePage/Group 49919.png');
+  width: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 80vh;
 }
 

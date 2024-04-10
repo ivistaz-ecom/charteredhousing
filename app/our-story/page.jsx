@@ -14,13 +14,13 @@ const page = () => {
 
       <Container className="mt-5 p-5">
         <Row className="ps-5 pe-5">
-          <Col>
+          <Col xs={12} md={6}>
             <h1>
               OUR <br /> STORY
             </h1>
-            <div className="horizontal-line" />
+            <div className="horizontal-line mb-4" />
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <p>
               A growing list of delighted customers, many successful projects
               and some accolades are proof enough that our passion continues to
@@ -119,11 +119,15 @@ const page = () => {
         </Row>
       </Container>
 
-      <Container className="d-flex flex-row justify-content-between p-3 mt-5 shadow">
+      <Container>
         <Row>
-          {awardsMenu.map((item) => (
-            <Awards key={item.id} awardsDetails={item} />
-          ))}
+          <Col>
+            <ul className="d-flex flex-column flex-md-row justify-content-between p-3 mt-5 shadow">
+              {awardsMenu.map((item) => (
+                <Awards key={item.id} awardsDetails={item} />
+              ))}
+            </ul>
+          </Col>
         </Row>
       </Container>
     </>
