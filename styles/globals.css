@@ -12,8 +12,27 @@ body {
   font-family: 'Trirong', serif, 'DM Sans', 'Roboto Condensed', 'Fjalla One',
     sans-serif !important;
   h1 {
-    font-size: 50px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-family: 15px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      font-family: 16px;
+    }
   }
 }
 
@@ -52,9 +71,15 @@ body {
 .footer-bg1 {
   background: var(--grey-color-footer);
   li {
-    color: #171717;
     opacity: 0.74;
     margin-bottom: 10px;
+    .custom-link {
+      text-decoration: none;
+      color: #171717;
+    }
+    :hover {
+      color: var(--red-color);
+    }
   }
 }
 
@@ -222,7 +247,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 45%;
+  width: 100%;
+  margin-bottom: 15px;
   color: #fff;
   cursor: pointer;
   :hover {
@@ -237,11 +263,23 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 55%;
+  width: 100%;
+  margin-bottom: 15px;
   color: #fff;
   :hover {
     background-color: #fff;
     color: #000;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .vision-con {
+    width: 45%;
+    margin-bottom: 0;
+  }
+  .mission-con {
+    width: 55%;
+    margin-bottom: 0;
   }
 }
 

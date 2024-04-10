@@ -16,7 +16,7 @@ const page = () => {
         <Row className="ps-5 pe-5">
           <Col xs={12} md={6}>
             <h1>
-              OUR <br /> STORY
+              OUR <br className="d-none d-md-block" /> STORY
             </h1>
             <div className="horizontal-line mb-4" />
           </Col>
@@ -38,7 +38,8 @@ const page = () => {
               better and delight more by offering Quality through Transparency.
             </p>
             <h1 className="mt-5">
-              CHARTERED HOUSING <br /> VISION AND MISSION
+              CHARTERED HOUSING <br className="d-none d-md-block" /> VISION AND
+              MISSION
             </h1>
             <div className="horizontal-line" />
             <p className="mt-5">
@@ -53,8 +54,8 @@ const page = () => {
       <Container>
         <Row>
           <Col>
-            <div className="d-flex">
-              <div className="vision-con me-2">
+            <div className="d-flex flex-column flex-lg-row">
+              <div className="vision-con me-lg-2">
                 <div className="p-4 mt-5 content-con">
                   <p className="fs-4">Vision</p>
                   <ul className="list-con">
@@ -66,7 +67,7 @@ const page = () => {
                   </ul>
                 </div>
               </div>
-              <div className="mission-con ms-2 pt-5">
+              <div className="mission-con ms-lg-2 pt-5">
                 <div className="p-4 mt-5 content-con">
                   <p className="fs-4">Mission</p>
                   <div className="d-flex gap-3">
@@ -106,7 +107,7 @@ const page = () => {
       </Container>
 
       <Container className="mt-5 w-50">
-        <Row className="">
+        <Row>
           <Col className="text-center">
             <h1>AWARDS AND RECOGNITIONS</h1>
             <p className="mt-4">

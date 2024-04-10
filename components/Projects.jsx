@@ -1,7 +1,5 @@
 import { Col } from 'react-bootstrap'
 
-Col
-
 const Projects = ({ projectDetails }) => {
   const { year, title, address, borderStyle } = projectDetails
   return (
@@ -13,7 +11,7 @@ const Projects = ({ projectDetails }) => {
           <p className="project-add">{address}</p>
         </div>
       </li>
-      <div className="horizontal-line-red" />
+      <div className="horizontal-line-red w-100" />
     </Col>
   )
 }
