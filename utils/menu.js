@@ -357,6 +357,25 @@ export const projectsMenu = [
 //   },
 // ]
 
+// export const ongoingProject = [
+//   {
+//     id: 1,
+//     imageUrl: '/ongoingProject/Project image 1.jpg',
+//   },
+//   {
+//     id: 2,
+//     imageUrl: '/ongoingProject/Project image 2.jpg',
+//   },
+//   {
+//     id: 3,
+//     imageUrl: '/ongoingProject/Project image 3.jpg',
+//   },
+//   {
+//     id: 4,
+//     imageUrl: '/ongoingProject/Project image 4.jpg',
+//   },
+// ]
+
 export const amenities = [
   {
     id: 1,

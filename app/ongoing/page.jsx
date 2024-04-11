@@ -2,7 +2,7 @@ import BankLogo from '@components/BankLogo'
 import { amenities, banksLogo, carousel } from '@utils/menu'
 import Image from 'next/image'
 import { Container, Row, Col, Button } from 'react-bootstrap'
-import SliderCom from '../../components/Slider'
+import SliderCon from '../../components/OngoingSlider'
 
 const page = () => {
   return (
@@ -44,7 +44,7 @@ const page = () => {
         </Row>
         <Row>
           <Col className="d-flex flex-column align-items-center">
-            <SliderCom />
+            <SliderCon />
 
             <div className="ms-5 mt-5 ps-5 w-75">
               <h1>THE STORY</h1>

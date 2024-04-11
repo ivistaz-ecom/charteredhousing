@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Image from 'next/image'
 
-function Partners() {
+function Partners({ projects }) {
   const [nav1, setNav1] = useState(null)
   const [nav2, setNav2] = useState(null)
   let sliderRef1 = useRef(null)
@@ -90,7 +90,7 @@ function Partners() {
               >
                 <div>
                   <Image
-                    src="/ongoingProject/Project image 1.jpg"
+                    src="/grasshopper/Project image 1.jpg"
                     className="w-75"
                     width={200}
                     height={600}
@@ -98,7 +98,7 @@ function Partners() {
                 </div>
                 <div>
                   <Image
-                    src="/ongoingProject/Project image 2.jpg"
+                    src="/grasshopper/Project image 2.jpg"
                     className="w-75"
                     width={200}
                     height={600}
@@ -106,7 +106,7 @@ function Partners() {
                 </div>
                 <div>
                   <Image
-                    src="/ongoingProject/Project image 3.jpg"
+                    src="/grasshopper/Project image 1.jpg"
                     className="w-75"
                     width={200}
                     height={600}
@@ -114,7 +114,7 @@ function Partners() {
                 </div>
                 <div>
                   <Image
-                    src="/ongoingProject/Project image 4.jpg"
+                    src="/grasshopper/Project image 2.jpg"
                     className="w-75"
                     width={200}
                     height={600}
@@ -134,7 +134,7 @@ function Partners() {
                 >
                   <div>
                     <Image
-                      src="/ongoingProject/Project image 1.jpg"
+                      src="/grasshopper/Project image 1.jpg"
                       className="border border-5 border-light"
                       width={134}
                       height={69}
@@ -142,7 +142,7 @@ function Partners() {
                   </div>
                   <div>
                     <Image
-                      src="/ongoingProject/Project image 2.jpg"
+                      src="/grasshopper/Project image 2.jpg"
                       className="border border-5 border-light"
                       width={134}
                       height={69}
@@ -150,7 +150,7 @@ function Partners() {
                   </div>
                   <div>
                     <Image
-                      src="/ongoingProject/Project image 3.jpg"
+                      src="/grasshopper/Project image 1.jpg"
                       className="border border-5 border-light"
                       width={134}
                       height={69}
@@ -158,7 +158,7 @@ function Partners() {
                   </div>
                   <div>
                     <Image
-                      src="/ongoingProject/Project image 4.jpg"
+                      src="/grasshopper/Project image 2.jpg"
                       className="border border-5 border-light"
                       width={134}
                       height={69}
