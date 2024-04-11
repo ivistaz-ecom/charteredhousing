@@ -90,13 +90,19 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" href="/hummingbird">
-                    Hummingbird
+                  <Link
+                    className="dropdown-item"
+                    href="/bangalore-kanakapura-road"
+                  >
+                    Kanakapura Road
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/grasshopper">
-                    Grasshopper
+                  <Link
+                    className="dropdown-item"
+                    href="/bangalore-electronic-city"
+                  >
+                    Electronic City
                   </Link>
                 </li>
               </ul>
