@@ -181,9 +181,20 @@ body {
 .amenities-bg {
   display: flex;
   align-items: flex-end;
-  background-image: url('/ongoingProject/Group 49907@2x.png');
   background-size: cover;
   height: 80vh;
+}
+
+.ongoing-project {
+  background-image: url('/ongoingProject/Group 49907.png');
+}
+
+.hummingbird {
+  background-image: url('/hummingbird/Amenities02.png');
+}
+
+.grasshopper {
+  background-image: url('/ongoingProject/Group 49907.png');
 }
 
 .amenities-item-con {
@@ -329,4 +340,15 @@ button.slick-arrow.slick-prev {
 
 .accordion-custom-btn {
   background-color: #f4f4f4 !important;
+}
+
+.custom-modal .modal-content {
+  border-radius: 0 !important;
+  border: 1px solid #707070;
+}
+
+.no-focus-outline {
+  outline: none !important;
+  box-shadow: 0px 1px 3px #00000029 !important;
+  border: none !important;
 }

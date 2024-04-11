@@ -8,7 +8,7 @@ const page = () => {
     <>
       <section className="mb-5">
         <div>
-          <img src="/storyPage1/Mask Group 272@2x.png" className="w-100" />
+          <img src="/bannerImage/Banner 4.png" className="w-100" />
         </div>
       </section>
 
