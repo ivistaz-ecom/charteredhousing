@@ -25,12 +25,12 @@ const Footer = () => {
                       <h4 className="fw-light">Our Projects</h4>
                       <hr />
                       <li>
-                        <Link className="custom-link" href="/ongoing-project">
+                        <Link className="custom-link" href="/ongoing">
                           Ongoing
                         </Link>
                       </li>
                       <li>
-                        <Link className="custom-link" href="/completed-project">
+                        <Link className="custom-link" href="/completed">
                           Completed
                         </Link>
                       </li>
@@ -63,7 +63,7 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link className="custom-link" href="/csr">
+                        <Link className="custom-link" href="/csr-activities">
                           CSR
                         </Link>
                       </li>
