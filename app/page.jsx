@@ -9,26 +9,29 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Home = () => {
   return (
     <>
-      <div className="home-banner mb-5">
-        <Container>
-          <Row>
-            <Col>
-              <div className="p-5 ms-5 mt-5">
-                <h1>
-                  CHARTERED <br /> HOUSING
-                </h1>
-                <div className="horizontal-line" />
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <section className="mb-5">
+        <div>
+          <img src="/homePage/Group 49919.png" className="w-100" />
+        </div>
+      </section>
+      <Container className="p-5">
+        <Row>
+          <Col>
+            <div className="ps-4 ps-md-5 chartered-housing">
+              <h1>
+                CHARTERED <br /> HOUSING
+              </h1>
+              <div className="horizontal-line" />
+            </div>
+          </Col>
+        </Row>
+      </Container>
 
       <div>
         <Container>
           <Row>
             <Col sm={12} lg={7} className="ms-auto me-5">
-              <div className="p-5">
+              <div className="px-5 pb-5">
                 <p>
                   We embarked into development of Residential Apartments in
                   1989. The first project Chartered Resorts was a trendsetter
@@ -54,26 +57,26 @@ const Home = () => {
 
       <div className="mb-4">
         <Container>
-          <Row>
+          <Row className="d-flex flex-column flex-md-row justify-content-between px-md-5">
             <Col>
-              <div className="quality-con d-flex justify-content-between px-5">
-                <Image
+              <div className="quality-con">
+                <img
                   src="/homePage/Mask Group 261.png"
                   alt=""
-                  width={632}
-                  height={467}
-                  className="me-4"
+                  className="me-5"
                 />
-                <div className="align-self-center w-50 ms-5">
-                  <h1>
-                    QUALITY through <br /> TRANSPARENCY
-                  </h1>
-                  <div className="horizontal-line" />
-                  <p className="w-75 mt-5">
-                    Drawing inspiration from our philosophy, we have conceived
-                    our corporate tagline.
-                  </p>
-                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={5}>
+              <div className="align-self-center ms-md-5 mt-5">
+                <h1>
+                  QUALITY through <br /> TRANSPARENCY
+                </h1>
+                <div className="horizontal-line" />
+                <p className="w-100 mt-4 mt-md-5">
+                  Drawing inspiration from our philosophy, we have conceived our
+                  corporate tagline.
+                </p>
               </div>
             </Col>
           </Row>
@@ -82,19 +85,19 @@ const Home = () => {
 
       <div>
         <Container>
-          <Row>
+          <Row className="p-md-5 mx-md-5">
             <Col>
-              <div className="p-5 mx-5">
-                <h1>
-                  BUSINESS ETHICS & STRINGENT <br /> VALUE BASED PRACTICES
-                </h1>
-                <div className="horizontal-line mb-5" />
-                <p className="w-50">
-                  Our business is conducted with highest ethical values and
-                  other stringent value based business practices solely aimed at
-                  benefitting our clients. Some such practices are;
-                </p>
-              </div>
+              <h1>
+                BUSINESS ETHICS & STRINGENT <br /> VALUE BASED PRACTICES
+              </h1>
+              <div className="horizontal-line mb-5" />
+            </Col>
+            <Col xs={12}>
+              <p>
+                Our business is conducted with highest ethical values and other
+                stringent value based business practices solely aimed at
+                benefitting our clients. Some such practices are;
+              </p>
             </Col>
           </Row>
         </Container>
@@ -131,7 +134,7 @@ const Home = () => {
         <Container fluid>
           <Row>
             <Col>
-              <div className="d-flex justify-content-between mt-4">
+              <div className="d-flex flex-column flex-md-row justify-content-between mt-4">
                 {leadership.map((item) => (
                   <Leadership key={item.id} leadershipDetails={item} />
                 ))}

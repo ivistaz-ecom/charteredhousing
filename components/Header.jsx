@@ -105,6 +105,11 @@ const Header = () => {
                     Electronic City
                   </Link>
                 </li>
+                <li>
+                  <Link className="dropdown-item" href="/bangalore-nelamangala">
+                    Nelamangala
+                  </Link>
+                </li>
               </ul>
             </li>
             <li className="nav-item dropdown">

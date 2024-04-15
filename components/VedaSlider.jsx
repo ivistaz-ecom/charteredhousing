@@ -90,7 +90,7 @@ function Partners() {
               >
                 <div>
                   <Image
-                    src="/grasshopper/Project image 1.jpg"
+                    src="/veda/Project image 1.jpg"
                     className="w-75"
                     width={200}
                     height={600}
@@ -98,7 +98,7 @@ function Partners() {
                 </div>
                 <div>
                   <Image
-                    src="/grasshopper/Project image 2.jpg"
+                    src="/veda/Project image 2.jpg"
                     className="w-75"
                     width={200}
                     height={600}
@@ -106,7 +106,7 @@ function Partners() {
                 </div>
                 <div>
                   <Image
-                    src="/grasshopper/Project image 1.jpg"
+                    src="/veda/Project image 3.jpg"
                     className="w-75"
                     width={200}
                     height={600}
@@ -114,7 +114,23 @@ function Partners() {
                 </div>
                 <div>
                   <Image
-                    src="/grasshopper/Project image 2.jpg"
+                    src="/veda/Project image 4.jpeg"
+                    className="w-75"
+                    width={200}
+                    height={600}
+                  />
+                </div>
+                <div>
+                  <Image
+                    src="/veda/Project image 5.jpg"
+                    className="w-75"
+                    width={200}
+                    height={600}
+                  />
+                </div>
+                <div>
+                  <Image
+                    src="/veda/Project image 6.jpg"
                     className="w-75"
                     width={200}
                     height={600}
@@ -134,7 +150,7 @@ function Partners() {
                 >
                   <div>
                     <Image
-                      src="/grasshopper/Project image 1.jpg"
+                      src="/veda/Project image 1.jpg"
                       className="border border-5 border-light"
                       width={134}
                       height={69}
@@ -142,7 +158,7 @@ function Partners() {
                   </div>
                   <div>
                     <Image
-                      src="/grasshopper/Project image 2.jpg"
+                      src="/veda/Project image 2.jpg"
                       className="border border-5 border-light"
                       width={134}
                       height={69}
@@ -150,7 +166,7 @@ function Partners() {
                   </div>
                   <div>
                     <Image
-                      src="/grasshopper/Project image 1.jpg"
+                      src="/veda/Project image 3.jpg"
                       className="border border-5 border-light"
                       width={134}
                       height={69}
@@ -158,7 +174,23 @@ function Partners() {
                   </div>
                   <div>
                     <Image
-                      src="/grasshopper/Project image 2.jpg"
+                      src="/veda/Project image 4.jpeg"
+                      className="border border-5 border-light"
+                      width={134}
+                      height={69}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      src="/veda/Project image 5.jpg"
+                      className="border border-5 border-light"
+                      width={134}
+                      height={69}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      src="/veda/Project image 6.jpg"
                       className="border border-5 border-light"
                       width={134}
                       height={69}
