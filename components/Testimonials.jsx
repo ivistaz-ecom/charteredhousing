@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 
 const Testimonials = () => {
@@ -23,10 +24,12 @@ const Testimonials = () => {
           <Col xs={12} md={8} className="ms-md-auto mt-4">
             <div className="d-flex justify-content-between border p-2 gap-2 bg-white">
               <div className="w-50 d-flex flex-column p-4">
-                <img
+                <Image
                   src="/homePage/Group 49862.svg"
                   alt="comma"
-                  className="mb-4 align-self-start"
+                  width={40}
+                  height={40}
+                  className="mb-4"
                 />
                 <p className="fs-5 fw-light">
                   High in quality and very professional in service. Highly
@@ -37,10 +40,12 @@ const Testimonials = () => {
               </div>
 
               <div className="w-50 d-flex flex-column p-4">
-                <img
+                <Image
                   src="/homePage/Group 49863.svg"
                   alt="comma"
-                  className="mb-4 align-self-start"
+                  width={40}
+                  height={40}
+                  className="mb-4"
                 />
                 <p className="fs-5 fw-light">
                   I admire and salute Chartered for their commitment to quality

@@ -3,6 +3,7 @@ import CharteredPhilosophy from '@components/CharteredPhilosophy'
 import Leadership from '@components/Leadership'
 import Testimonials from '@components/Testimonials'
 import { businessEthics, leadership } from '@utils/menu'
+import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 
 const Home = () => {
@@ -59,9 +60,11 @@ const Home = () => {
           <Row className="d-flex flex-column flex-md-row justify-content-between px-md-5">
             <Col>
               <div className="quality-con">
-                <img
+                <Image
                   src="/homePage/Mask Group 261.png"
                   alt=""
+                  width={600}
+                  height={420}
                   className="me-5"
                 />
               </div>
