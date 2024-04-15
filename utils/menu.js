@@ -357,24 +357,89 @@ export const projectsMenu = [
 //   },
 // ]
 
-// export const ongoingProject = [
-//   {
-//     id: 1,
-//     imageUrl: '/ongoingProject/Project image 1.jpg',
-//   },
-//   {
-//     id: 2,
-//     imageUrl: '/ongoingProject/Project image 2.jpg',
-//   },
-//   {
-//     id: 3,
-//     imageUrl: '/ongoingProject/Project image 3.jpg',
-//   },
-//   {
-//     id: 4,
-//     imageUrl: '/ongoingProject/Project image 4.jpg',
-//   },
-// ]
+export const ongoingProject = [
+  {
+    id: 1,
+    imageUrl: '/ongoingProject/Project image 1.jpg',
+  },
+  {
+    id: 2,
+    imageUrl: '/ongoingProject/Project image 2.jpg',
+  },
+  {
+    id: 3,
+    imageUrl: '/ongoingProject/Project image 3.jpg',
+  },
+  {
+    id: 4,
+    imageUrl: '/ongoingProject/Project image 4.jpg',
+  },
+]
+
+export const grasshopperProject = [
+  {
+    id: 1,
+    imageUrl: '/grasshopper/Project image 1.jpg',
+  },
+  {
+    id: 2,
+    imageUrl: '/grasshopper/Project image 2.jpg',
+  },
+  {
+    id: 3,
+    imageUrl: '/grasshopper/Project image 1.jpg',
+  },
+  {
+    id: 4,
+    imageUrl: '/grasshopper/Project image 2.jpg',
+  },
+]
+
+export const hummingbirdProject = [
+  {
+    id: 1,
+    imageUrl: '/hummingbird/Project image 1.jpg',
+  },
+  {
+    id: 2,
+    imageUrl: '/hummingbird/Project image 2.jpg',
+  },
+  {
+    id: 3,
+    imageUrl: '/hummingbird/Project image 3.jpg',
+  },
+  {
+    id: 4,
+    imageUrl: '/hummingbird/Project image 4.jpg',
+  },
+]
+
+export const vedaProject = [
+  {
+    id: 1,
+    imageUrl: '/veda/Project image 1.jpg',
+  },
+  {
+    id: 2,
+    imageUrl: '/veda/Project image 2.jpg',
+  },
+  {
+    id: 3,
+    imageUrl: '/veda/Project image 3.jpg',
+  },
+  {
+    id: 4,
+    imageUrl: '/veda/Project image 4.jpeg',
+  },
+  {
+    id: 5,
+    imageUrl: '/veda/Project image 5.jpg',
+  },
+  {
+    id: 6,
+    imageUrl: '/veda/Project image 6.jpg',
+  },
+]
 
 export const amenities = [
   {

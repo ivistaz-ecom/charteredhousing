@@ -4,8 +4,9 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Image from 'next/image'
+import { ongoingProject } from '@utils/menu'
 
-function Partners({ projects }) {
+function Partners({ imageUrls }) {
   const [nav1, setNav1] = useState(null)
   const [nav2, setNav2] = useState(null)
   let sliderRef1 = useRef(null)
@@ -88,38 +89,18 @@ function Partners({ projects }) {
                 ref={(slider) => (sliderRef1 = slider)}
                 className="p-5"
               >
-                <div>
-                  <Image
-                    src="/hummingbird/Project image 1.jpg"
-                    className="w-75"
-                    width={200}
-                    height={600}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/hummingbird/Project image 2.jpg"
-                    className="w-75"
-                    width={200}
-                    height={600}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/hummingbird/Project image 3.jpg"
-                    className="w-75"
-                    width={200}
-                    height={600}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/hummingbird/Project image 4.jpg"
-                    className="w-75"
-                    width={200}
-                    height={600}
-                  />
-                </div>
+                {imageUrls.map((item) => {
+                  return (
+                    <div>
+                      <Image
+                        src={item.imageUrl}
+                        className="w-75"
+                        width={200}
+                        height={600}
+                      />
+                    </div>
+                  )
+                })}
               </Slider>
               <div className="w-50 slider">
                 <Slider
@@ -132,38 +113,18 @@ function Partners({ projects }) {
                   dots={false}
                   arrows={false}
                 >
-                  <div>
-                    <Image
-                      src="/hummingbird/Project image 1.jpg"
-                      className="border border-5 border-light"
-                      width={134}
-                      height={69}
-                    />
-                  </div>
-                  <div>
-                    <Image
-                      src="/hummingbird/Project image 2.jpg"
-                      className="border border-5 border-light"
-                      width={134}
-                      height={69}
-                    />
-                  </div>
-                  <div>
-                    <Image
-                      src="/hummingbird/Project image 3.jpg"
-                      className="border border-5 border-light"
-                      width={134}
-                      height={69}
-                    />
-                  </div>
-                  <div>
-                    <Image
-                      src="/hummingbird/Project image 4.jpg"
-                      className="border border-5 border-light"
-                      width={134}
-                      height={69}
-                    />
-                  </div>
+                  {imageUrls.map((item) => {
+                    return (
+                      <div>
+                        <Image
+                          src={item.imageUrl}
+                          className="border border-5 border-light"
+                          width={134}
+                          height={69}
+                        />
+                      </div>
+                    )
+                  })}
                 </Slider>
               </div>
             </div>

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Container, Row, Col, Button } from 'react-bootstrap'
 
 const Leadership = ({ leadershipDetails }) => {
   return (

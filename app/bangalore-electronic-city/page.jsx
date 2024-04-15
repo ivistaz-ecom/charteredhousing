@@ -1,8 +1,8 @@
 import BankLogo from '@components/BankLogo'
-import { amenities, banksLogo, carousel } from '@utils/menu'
+import { amenities, banksLogo, grasshopperProject } from '@utils/menu'
 import Image from 'next/image'
-import { Container, Row, Col, Button } from 'react-bootstrap'
-import SliderCon from '../../components/GrasshopperSlider'
+import { Container, Row, Col } from 'react-bootstrap'
+import SliderCon from '../../components/Slider'
 
 const page = () => {
   return (
@@ -54,7 +54,7 @@ const page = () => {
         </Row>
         <Row>
           <Col className="d-flex flex-column align-items-center">
-            <SliderCon />
+            <SliderCon imageUrls={grasshopperProject} />
 
             <div className="ms-5 mt-5 ps-5 w-75">
               <h1>THE STORY</h1>

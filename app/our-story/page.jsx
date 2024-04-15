@@ -1,6 +1,5 @@
 import Awards from '@components/Awards'
-import Card from '@components/Card'
-import { awardsMenu, cardMenu } from '@utils/menu'
+import { awardsMenu } from '@utils/menu'
 import { Container, Row, Col } from 'react-bootstrap'
 
 const page = () => {
