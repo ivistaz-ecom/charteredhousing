@@ -13,7 +13,7 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body>
+      <head>
         <link rel="preload" href="https://fonts.googleapis.com" />
         <link rel="preload" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -30,6 +30,8 @@ const RootLayout = ({ children }) => {
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
           crossorigin="anonymous"
         ></script>
+      </head>
+      <body>
         <main>
           <Header />
           {children}
