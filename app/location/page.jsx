@@ -1,5 +1,6 @@
 import Blogs from '@components/Blogs'
 import { blogsMenu } from '@utils/menu'
+import Image from 'next/image'
 import { Container } from 'react-bootstrap'
 
 const page = () => {
@@ -7,7 +8,12 @@ const page = () => {
     <>
       <section className="mb-5">
         <div>
-          <img src="/bannerImage/Banner 5.png" className="w-100" />
+          <Image
+            src="/bannerImage/Banner 5.png"
+            layout="responsive"
+            width={1000}
+            height={500}
+          />
         </div>
       </section>
       <Container>

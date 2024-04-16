@@ -11,7 +11,13 @@ const Home = () => {
     <>
       <section className="mb-5">
         <div>
-          <img src="/homePage/Group 49919.png" className="w-100" />
+          <Image
+            src="/homePage/Group 49919.png"
+            alt=""
+            layout="responsive"
+            width={1000}
+            height={500}
+          />
         </div>
       </section>
       <Container className="p-5">

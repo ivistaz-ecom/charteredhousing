@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 
@@ -31,7 +32,14 @@ const Blogs = ({ blogsItem }) => {
 
         <Col xs={12} md={8} className="ms-md-auto">
           <div className="mb-5">
-            <img src={imageUrl} alt={name} className="w-100 mt-4" />
+            <Image
+              src={imageUrl}
+              alt={name}
+              width={1000}
+              height={500}
+              layout="responsive"
+              className="mt-4"
+            />
             <h4 className="fw-light mt-4">{name}</h4>
             <p className="mt-4 w-75">{details}</p>
             <Button className="rounded-0 border-0 enquire-btn mt-4">

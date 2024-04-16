@@ -94,9 +94,10 @@ function Partners({ imageUrls }) {
                     <div>
                       <Image
                         src={item.imageUrl}
+                        layout="responsive"
                         className="w-75"
-                        width={200}
-                        height={600}
+                        width={400}
+                        height={300}
                       />
                     </div>
                   )
