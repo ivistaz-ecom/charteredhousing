@@ -6,7 +6,7 @@ const Leadership = ({ leadershipDetails }) => {
       <div className="p-4">
         <Image
           src={leadershipDetails.imageUrl}
-          alt=""
+          alt={leadershipDetails.alt}
           width={116}
           height={160}
           className="ms-4"

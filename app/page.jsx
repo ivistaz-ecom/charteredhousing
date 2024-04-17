@@ -12,7 +12,7 @@ const Home = () => {
       <section className="mb-5">
         <div>
           <Image
-            src="/homePage/Group 49919.png"
+            src="/bannerImage/HomeBanner.png"
             alt=""
             layout="responsive"
             width={1000}
@@ -68,7 +68,7 @@ const Home = () => {
               <div className="quality-con">
                 <Image
                   src="/homePage/Mask Group 261.png"
-                  alt=""
+                  alt="Apartments With Swimming Pool - Chartered Hummingbird"
                   width={600}
                   height={420}
                   className="me-5"
@@ -142,7 +142,7 @@ const Home = () => {
         <Container fluid>
           <Row>
             <Col>
-              <div className="d-flex flex-column flex-md-row justify-content-between mt-4">
+              <div className="d-flex flex-column flex-md-row mt-4">
                 {leadership.map((item) => (
                   <Leadership key={item.id} leadershipDetails={item} />
                 ))}

@@ -58,7 +58,7 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link className="custom-link" href="/">
+                        <Link className="custom-link" href="/blog">
                           Blog
                         </Link>
                       </li>
@@ -97,7 +97,35 @@ const Footer = () => {
             <p>©2024 Chartered Housing. All Rights Reserved.</p>
           </div>
           <div>
-            <p>Terms of Use | Privacy Policy | Disclaimer | Sitemap</p>
+            <p>
+              <Link
+                className="text-decoration-none text-white underline-on-hover"
+                href="terms-of-use"
+              >
+                Terms of Use
+              </Link>{' '}
+              |{' '}
+              <Link
+                className="text-decoration-none text-white underline-on-hover"
+                href="privacy-policy"
+              >
+                Privacy Policy
+              </Link>{' '}
+              |{' '}
+              <Link
+                className="text-decoration-none text-white underline-on-hover"
+                href="/disclaimer"
+              >
+                Disclaimer
+              </Link>{' '}
+              |{' '}
+              <Link
+                className="text-decoration-none text-white underline-on-hover"
+                href="/sitemap"
+              >
+                Sitemap
+              </Link>
+            </p>
           </div>
         </div>
       </section>

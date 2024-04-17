@@ -10,8 +10,9 @@ const page = () => {
       <section className="mb-5">
         <div>
           <Image
-            src="/bannerImage/Banner 7.png"
+            src="/bannerImage/KanakapuraRoadBanner.png"
             layout="responsive"
+            alt="Luxury Flats and Apartments in Kanakapura Road, Bangalore "
             width={1000}
             height={500}
           />

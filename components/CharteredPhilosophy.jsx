@@ -9,7 +9,7 @@ const CharteredPhilosophy = () => {
           <Col>
             <Image
               src="/homePage/Group 49823.svg"
-              alt=""
+              alt="Chartered Housing Philosophy"
               width={335}
               height={250}
               className="mb-4"

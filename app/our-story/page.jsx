@@ -9,7 +9,7 @@ const page = () => {
       <section className="mb-5">
         <div>
           <Image
-            src="/bannerImage/Banner 4.png"
+            src="/bannerImage/OurStoryBanner.png"
             layout="responsive"
             width={1000}
             height={500}

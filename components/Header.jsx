@@ -4,14 +4,14 @@ import EnquireForm from './Form'
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top navbar-bg p-4">
+    <nav className="navbar navbar-expand-lg sticky-top navbar-bg p-3 p-md-4">
       <div className="container-fluid">
         <Link className="navbar-brand" href="/">
           <Image
             src="/logo/logo.png"
-            alt="logo"
-            width={70}
-            height={115}
+            alt="Best Real Estate Developer in Bangalore"
+            width={65}
+            height={110}
             className="logo"
           />
         </Link>

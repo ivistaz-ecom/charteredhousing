@@ -1,5 +1,5 @@
 import Card from '@components/Card'
-import { cardMenu } from '@utils/menu'
+import { csrActivities } from '@utils/menu'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -9,8 +9,9 @@ const page = () => {
       <section className="mb-5">
         <div>
           <Image
-            src="/bannerImage/Banner 6.png"
+            src="/bannerImage/CSRBanner.png"
             layout="responsive"
+            alt="Chartered Housing  - CSR Activities"
             width={1000}
             height={500}
           />
@@ -26,7 +27,7 @@ const page = () => {
             </div>
           </Col>
           <Col className="d-flex justify-content-center pb-5 gap-4 flex-wrap">
-            {cardMenu.map((item) => (
+            {csrActivities.map((item) => (
               <Card key={item.id} cardItems={item} />
             ))}
           </Col>

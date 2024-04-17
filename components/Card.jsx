@@ -1,19 +1,21 @@
 import Image from 'next/image'
 
 const Card = ({ cardItems }) => {
-  const { imageUrl, title, description } = cardItems
+  const { imageUrl, title, description, alt } = cardItems
   return (
     <div className="card custom-card border-0" style={{ width: '28rem' }}>
-      <Image
-        src={imageUrl}
-        width={1000}
-        height={500}
-        layout="responsive"
-        className="card-img-top rounded-0"
-        alt={title}
-      />
+      {imageUrl ? (
+        <Image
+          src={imageUrl}
+          width={1000}
+          height={500}
+          layout="responsive"
+          className="card-img-top rounded-0"
+          alt={alt}
+        />
+      ) : null}
       <div className="card-body d-flex flex-column align-items-start ">
-        <h5 className="card-title">{title}</h5>
+        <h5 className="card-title mb-3">{title}</h5>
         <p className="card-text">{description}</p>
         <a
           href="#"

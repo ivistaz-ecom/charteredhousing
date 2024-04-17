@@ -10,8 +10,9 @@ const page = () => {
       <section className="mb-5">
         <div>
           <Image
-            src="/bannerImage/Banner 8.png"
+            src="/bannerImage/ElectronicCityBanner.png"
             layout="responsive"
+            alt="Chartered Veda - Plots in Nelamangala, Bangalore"
             width={1000}
             height={500}
           />

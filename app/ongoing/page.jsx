@@ -10,7 +10,8 @@ const page = () => {
       <section className="mb-5">
         <div>
           <Image
-            src="/bannerImage/Banner 2.png"
+            src="/bannerImage/OngoingBanner.png"
+            alt="Chartered Housing Ongoing Apartment Project in Bangalore"
             layout="responsive"
             width={1000}
             height={500}

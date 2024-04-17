@@ -94,10 +94,10 @@ function Partners({ imageUrls }) {
                     <div>
                       <Image
                         src={item.imageUrl}
-                        layout="responsive"
+                        alt={item.altText}
                         className="w-75"
-                        width={400}
-                        height={300}
+                        width={200}
+                        height={600}
                       />
                     </div>
                   )
@@ -119,6 +119,7 @@ function Partners({ imageUrls }) {
                       <div>
                         <Image
                           src={item.imageUrl}
+                          alt={item.altText}
                           className="border border-5 border-light"
                           width={134}
                           height={69}
