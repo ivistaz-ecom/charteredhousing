@@ -164,6 +164,64 @@ export const csrActivities = [
   },
   {
     id: 5,
+    imageUrl: '/csr/Culture.jpg',
+    alt: 'Chartered Housing  - CSR Activities Nature',
+    title: 'CULTURE',
+    description:
+      'As Thomas Wolfe said, “Culture is the arts elevated to a set of beliefs.” These set of beliefs form the very backbone of our society, which is why we at Chartered Housing support various musicians, folk artists, sculptors and stage artists directly or indirectly through organisations that hep bring forward their creativity and skill to…',
+    details: {
+      title: 'CULTURE',
+      description:
+        'As Thomas Wolfe said, “Culture is the arts elevated to a set of beliefs.” These set of beliefs form the very backbone of our society, which is why we at Chartered Housing support various musicians, folk artists, sculptors and stage artists directly or indirectly through organisations that hep bring forward their creativity and skill to the people.',
+      table: {
+        head: [
+          'Health & Medical',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          ['Support To Musicians', 'Hundreds', 'Direct', ''],
+
+          [
+            'Support To Folk Artistes',
+            'Hundreds',
+            'Direct / NGO',
+            'Janapada Trust',
+          ],
+
+          [
+            'Support To Music Institutes',
+            'Hundreds',
+            'Direct / NGO',
+            'Bijapure Harmonium, Rama Seva Mandali, Prabhat Kalavidaru, Indian Music Experience, Bangalore school of Music, Sunaada Foundation , Kallur Mahalakshmi Tabla Vidyalaya, Gururao Deshpande Sangeeta Sabha, Artists Foundation for Art etc.',
+          ],
+
+          ['Painting Exhibitions', 'Dozens', 'Direct', ''],
+          [
+            'Supporting Visual Artistes / Sculptors / Stage Artistes',
+            'Hundreds',
+            'Direct / Through NGOs',
+            'Kadambari',
+          ],
+          [
+            'Plays',
+            'Dozens Of Troupes',
+            'Direct',
+            'Darpana, Spandana, Nataranga and Many Others',
+          ],
+          [
+            'Publication Of Books',
+            'Dozens',
+            'Direct / NGO',
+            'Kannada Sangha, Kanthavana',
+          ],
+        ],
+      },
+    },
+  },
+  {
+    id: 6,
     imageUrl: '/csr/Image 39.png',
     alt: 'Chartered Housing  - CSR Activities Premaanjali Foundation',
     title: 'THE PREMAANJALI FOUNDATION',
@@ -219,7 +277,7 @@ export const csrActivities = [
     },
   },
   {
-    id: 6,
+    id: 7,
     imageUrl: '/csr/Image 40.png',
     alt: 'Chartered Housing  - CSR Activities Miscellaneous',
     title: 'MISCELLANEOUS',
