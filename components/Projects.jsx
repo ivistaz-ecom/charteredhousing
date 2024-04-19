@@ -3,11 +3,11 @@ import { Col } from 'react-bootstrap'
 const Projects = ({ projectDetails }) => {
   const { year, title, address, borderStyle } = projectDetails
   return (
-    <Col sm={4}>
+    <Col md={6} lg={4}>
       <li className={`m-3 mb-4 p-3 ${borderStyle}`}>
         <div className="me-4 mb-3 project-container text-center">
-          <h2 className="project-year">{year}</h2>
-          <h6 className="project-title">{title}</h6>
+          <h1 className="project-year">{year}</h1>
+          <p className="project-title">{title}</p>
           <p className="project-add">{address}</p>
         </div>
       </li>

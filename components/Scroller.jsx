@@ -14,7 +14,12 @@ const Scroller = () => {
   return (
     <div className="text-center mt-4 mb-5">
       <Button variant="btn" onClick={scrollToTop}>
-        <Image src="/homePage/ScrollIcon.svg" width={50} height={50} />
+        <Image
+          alt="scroller"
+          src="/homePage/ScrollIcon.svg"
+          width={50}
+          height={50}
+        />
       </Button>
     </div>
   )

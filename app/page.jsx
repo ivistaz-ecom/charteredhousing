@@ -13,7 +13,7 @@ const Home = () => {
         <div>
           <Image
             src="/bannerImage/HomeBanner.png"
-            alt=""
+            alt="Villas between Koramangala and Electronic city, Bangalore."
             layout="responsive"
             width={1000}
             height={500}

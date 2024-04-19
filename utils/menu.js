@@ -6,6 +6,33 @@ export const csrActivities = [
     title: 'NATURE',
     description:
       'We have always done our bit towards protecting the environment in all our projects. We plan and re-plan our projects so that we never displace natural formations or trees. Trees and plants were always transplanted, never felled. Areas that had natural rock formations and trees were converted to parks so that the natural balance…',
+    details: {
+      title: 'NATURE',
+      description:
+        'We have always done our bit towards protecting the environment in all our projects. We have planned and re-planned our projects so that we never displace natural formations or trees. Trees and plants were always transplanted, never felled. Areas that had natural rock formations and trees were converted to parks so that the natural balance could be preserved and everyone could take benefit from the green cover and the beauty.',
+      table: {
+        head: [
+          'Rural',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          ['Transplanting Of Trees', 'Hundreds', 'Direct', 'Chartered Coronet'],
+
+          [
+            'Planting Health Centric Plants',
+            'Thousands',
+            'Direct',
+            'Chartered Windsong, Chartered Fireflies',
+          ],
+
+          ['Tree Planting', 'Hundreds', 'Direct', 'Rathna Avenue & BBMP'],
+
+          ['General', 'Hundreds', 'NGO', 'Rathna Avenue & BBMP'],
+        ],
+      },
+    },
   },
   {
     id: 2,
@@ -14,6 +41,31 @@ export const csrActivities = [
     title: 'RURAL POPULACE',
     description:
       'Farmers are the lifeline of our country, which is why we have provided health and accident insurance to hundreds of them. We also support weekly health camps at various villages organized by SevanjaliPrathishthana. Women empowerment and youth welfare too have been our areas of interest. Rural No. Of Beneficiaries Direct / Through NGO…',
+    details: {
+      title: 'RURAL POPULACE',
+      description:
+        'Farmers are the lifeline of our country. Which is why we have provided health and accident insurance to hundreds of them. We also support weekly health camps at various villages organized by SevanjaliPrathishthana. Women empowerment and youth welfare too have been our areas of interest.',
+      table: {
+        head: [
+          'Rural',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          ['Health Insurance To Farm Workers', 'Hundreds', 'Direct', ''],
+
+          ['Accident Insurance To Farm Workers', 'Thousands', 'Direct', ''],
+
+          [
+            'Support To Weekly Health Camp For Villagers',
+            'Thousands',
+            'NGO',
+            'Sevanjali Prathishthana',
+          ],
+        ],
+      },
+    },
   },
   {
     id: 3,
@@ -22,6 +74,43 @@ export const csrActivities = [
     title: 'EDUCATION',
     description:
       'We have always recognised that Education is powerful tool that helps facilitates great change in personal lives as well as the society. Which is why we support and take care of the educational needs of many children directly or indirectly with the help of NGOs. Education No. Of Beneficiaries Direct / Through NGO…',
+    details: {
+      title: 'EDUCATION',
+      description:
+        'We have always recognised that Education is powerful tool that helps facilitates great change in personal lives as well as the society. Which is why, we support and take care of the educational needs of many children directly or indirectly with the help of NGOs.',
+      table: {
+        head: [
+          'Education',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          [
+            'Poor Children’s Education',
+            'Dozens',
+            'Direct / NGO',
+            'Good Neighbours India',
+          ],
+
+          [
+            'Support To Schools',
+            'Dozens',
+            'Direct',
+            'Born Free Art School, Deepika School, Raza Educational Society, Bharatiya Vidya Bhavan And Many Others',
+          ],
+
+          ['Support To Ancient Gurukula System School', 'One', 'Direct', 'HSP'],
+
+          [
+            'Support To Architecture Students',
+            'Dozens',
+            'Direct / College',
+            'RV College, Ramaiah College, MIT etc',
+          ],
+        ],
+      },
+    },
   },
   {
     id: 4,
@@ -30,6 +119,48 @@ export const csrActivities = [
     title: 'MEDICAL AND HEALTH',
     description:
       'Man’s true wealth is only health. That is the first prerequisite for success in any endeavour and we recognise that. We begin by taking care of those who work with us and extend our support to those who can’t afford quality health and medical care. Health & Medical No. Of Beneficiaries Direct / Through NGO…',
+    details: {
+      title: 'MEDICAL AND HEALTH',
+      description:
+        'Man’s true wealth is only health. That’s the first prerequisite for success in any endeavour and we recognise that. We begin by taking care of those who work with us and extend our support to those who can’t afford quality health and medical care.',
+      table: {
+        head: [
+          'Health & Medical',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          [
+            'Support For Surgeries / Heart / Kidney / Cancer',
+            'Around 50',
+            'Direct / Hospital',
+            'NU Trust, Nightingale Trust etc',
+          ],
+
+          [
+            'Medical Research',
+            'One',
+            'NGO',
+            'Sri Balaji Arogya Vara Prasadini Scheme',
+          ],
+
+          [
+            'Support For Renovation Of Hospitals',
+            'One',
+            'NGO',
+            'Krishna Sevashram',
+          ],
+
+          [
+            'Support To Mentally Challenged',
+            'NGO',
+            'Direct / College',
+            'Richmond Fellowship, Mentally Challenged Association',
+          ],
+        ],
+      },
+    },
   },
   {
     id: 5,
@@ -38,6 +169,54 @@ export const csrActivities = [
     title: 'THE PREMAANJALI FOUNDATION',
     description:
       '‘Premaanjali’ which means ‘an offering of love’ is a foundation dedicated to transforming the lives of homeless and destitute children and also the visually impaired. The goal of Premaanjali is to touch the lives of those who have the will but not the means to achieve their dreams. Varied Schemes As Chairman Of Charitable…',
+    details: {
+      title: 'THE PREMAANJALI FOUNDATION',
+      description:
+        '‘Premaanjali’ which means ‘an offering of love’ is a foundation dedicated to transforming the lives of homeless and destitute children and also the visually impaired. The goal of Premaanjali is to touch the lives of those who have the will but not the means to achieve their dreams.',
+      table: {
+        head: [
+          'Varied Schemes As Chairman Of Charitable Trust',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          ['Mid Day Meal In Schools', '350', 'NGO', 'Premaanjali Foundation'],
+
+          ['Support To Schooling', '250', 'NGO', 'Premaanjali Foundation'],
+
+          [
+            'Advanced Training For Blind Adults',
+            '200',
+            'NGO',
+            'Premaanjali Foundation',
+          ],
+
+          ['Montessori Education', '65', 'NGO', 'Premaanjali Foundation'],
+
+          [
+            'Complete Support And Development Of Homeless Children',
+            'Nearly 100',
+            'NGO',
+            'Premaanjali Foundation',
+          ],
+
+          [
+            'Organising Huge Events With National Level Artistes / Celebrities',
+            '',
+            'NGO',
+            'Premaanjali Foundation',
+          ],
+
+          [
+            'Inter-school Children’s Sport’s & Cultural Activities',
+            'Thousands Of Children In About 40 Schools',
+            'NGO',
+            'Premaanjali Foundation',
+          ],
+        ],
+      },
+    },
   },
   {
     id: 6,
@@ -46,6 +225,69 @@ export const csrActivities = [
     title: 'MISCELLANEOUS',
     description:
       'Our contributions cannot be confined to a particular category or cause. We have focused on society as a whole and are doing what little we can to make the world a better place. Take a look at our other endeavours below: Miscellaneous No. Of Beneficiaries Direct / Through NGO / Organisation Pension To…',
+    details: {
+      title: 'MISCELLANEOUS',
+      description:
+        'Our contributions cannot be confined to a particular category or cause. We have focused on society as a whole and are doing what little we can to make the world a better place. Take a look at our other endeavours below:',
+      table: {
+        head: [
+          'Miscellaneous',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          ['Pension To Disabled', 'Handful', 'Direct', ''],
+          ['Creche For Construction Labour Children', 'Hundreds', 'Direct', ''],
+          ['Natural Calamities Like Flood, Earthquake etc', 'As Per Need', ''],
+          [
+            'Support To Youth Development Programmes',
+            'Hundreds',
+            'NGO',
+            'Rashtriya Seva Bharati (HSP)',
+          ],
+          [
+            'Support To Woman Empowerment & Welfare Programmes',
+            'Hundreds',
+            'NGO',
+            'HSP & Mahila Dakshata Samiti',
+          ],
+          [
+            'Support To Schools During Celebrations Say Independence Day etc',
+            'A Few',
+            'NGO',
+            'Sevashram, Alva Education Foundation',
+          ],
+          [
+            'Support To Local Dialects',
+            'Language / Culture',
+            'NGO',
+            'Tulu Adhyayana Kendra',
+          ],
+          [
+            'Helping Hand To The Senior Citizens',
+            'Hundreds',
+            'NGO',
+            'Little Sisters etc',
+          ],
+          [
+            'Support To Training Of Sevavritis (Hindu Missionaries)',
+            'Dozens',
+            'NGO',
+            'HSP',
+          ],
+          ['Temples', 'Several', 'Direct', ''],
+          ['Welfare Of Street Children', 'Hundreds', 'NGO', 'Bornfree School'],
+          [
+            'Support To Spiritual Pursuit',
+            '',
+            'NGO',
+            'Ramakrishna Vivekananda Ashram, Shakti Veda Wellness',
+          ],
+          ['Support To Tribals', 'Hundreds', 'NGO', 'Vanavasi Kalyana (HSP)'],
+        ],
+      },
+    },
   },
 ]
 
@@ -522,11 +764,6 @@ export const vedaProject = [
   },
   {
     id: 5,
-    imageUrl: '/veda/Project image 5.jpg',
-    altText: 'Chartered Veda - Plots in Nelamangala Fifth View',
-  },
-  {
-    id: 6,
     imageUrl: '/veda/Project image 6.jpg',
     altText: 'Chartered Veda - Plots in Nelamangala Sixth View',
   },

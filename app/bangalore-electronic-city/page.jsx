@@ -59,7 +59,7 @@ const page = () => {
           </Col>
         </Row>
         <Row>
-          <Col className="d-flex flex-column align-items-center">
+          <Col>
             <SliderCon imageUrls={grasshopperProject} />
 
             <div className="ms-5 mt-5 ps-5 w-75">

@@ -96,8 +96,9 @@ function Partners({ imageUrls }) {
                         src={item.imageUrl}
                         alt={item.altText}
                         className="w-75"
-                        width={200}
-                        height={600}
+                        layout="responsive"
+                        width={1000}
+                        height={500}
                       />
                     </div>
                   )
@@ -120,9 +121,10 @@ function Partners({ imageUrls }) {
                         <Image
                           src={item.imageUrl}
                           alt={item.altText}
-                          className="border border-5 border-light"
-                          width={134}
-                          height={69}
+                          className="border border-4 border-light w-75"
+                          layout="responsive"
+                          width={1000}
+                          height={500}
                         />
                       </div>
                     )

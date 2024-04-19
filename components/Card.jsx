@@ -1,7 +1,8 @@
 import Image from 'next/image'
+import ContinueReadingBtn from './ContinueReadingBtn'
 
 const Card = ({ cardItems }) => {
-  const { imageUrl, title, description, alt } = cardItems
+  const { id, imageUrl, title, description, alt } = cardItems
   return (
     <div className="card custom-card border-0" style={{ width: '28rem' }}>
       {imageUrl ? (
@@ -17,12 +18,8 @@ const Card = ({ cardItems }) => {
       <div className="card-body d-flex flex-column align-items-start ">
         <h5 className="card-title mb-3">{title}</h5>
         <p className="card-text">{description}</p>
-        <a
-          href="#"
-          className="btn btn-primary rounded-0 enquire-btn border-0 mt-auto"
-        >
-          Continue reading
-        </a>
+
+        <ContinueReadingBtn id={id} />
       </div>
     </div>
   )
