@@ -1,6 +1,6 @@
-import Card from '@components/Card'
+import BlogCard from '@components/BlogCard'
 import Seo from '@components/Seo'
-import { sitemap } from '@utils/menu'
+import { blogs } from '@utils/menu'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -24,8 +24,9 @@ const page = () => {
         <div>
           <Image
             src="/bannerImage/BlogBanner.png"
-            layout="responsive"
             alt="Chartered Housing - HTML Sitemap"
+            className="responsive-image"
+            priority
             width={1000}
             height={500}
           />
@@ -41,8 +42,8 @@ const page = () => {
             </div>
           </Col>
           <Col className="d-flex justify-content-center pb-5 gap-4 flex-wrap">
-            {sitemap.map((item) => (
-              <Card key={item.id} cardItems={item} />
+            {blogs.map((item) => (
+              <BlogCard key={item.id} cardItems={item} />
             ))}
           </Col>
         </Row>

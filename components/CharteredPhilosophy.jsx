@@ -5,14 +5,14 @@ const CharteredPhilosophy = () => {
   return (
     <div className="chartered-philosophy-con">
       <Container>
-        <Row className="d-flex flex-column flex-lg-row justify-content-between align-items-center p-5 mx-4">
+        <Row className="d-flex flex-column flex-lg-row justify-content-between align-items-center p-3 p-lg-5 mx-4">
           <Col>
             <Image
               src="/homePage/Group 49823.svg"
               alt="Chartered Housing Philosophy"
               width={300}
               height={225}
-              className="mb-4"
+              className="mb-3 mb-lg-4"
             />
           </Col>
 

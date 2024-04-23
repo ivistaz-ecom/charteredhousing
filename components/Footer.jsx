@@ -12,7 +12,7 @@ const Footer = () => {
                 <h2 className="vertical-text me-5 d-none d-md-block">
                   CHARTERED HOUSING
                 </h2>
-                <div className="footer-content-con ms-5 w-100">
+                <div className="footer-content-con ms-3 ms-md-5 w-100">
                   <h1>CONNECT WITH US</h1>
                   <h5 className="fw-light mt-3">
                     Call: +91 8660697659{' '}

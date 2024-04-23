@@ -23,8 +23,9 @@ const page = () => {
         <div>
           <Image
             src="/bannerImage/ElectronicCityBanner.png"
-            layout="responsive"
             alt="Villas between Koramangala and Electronic city, Bangalore."
+            className="responsive-image"
+            priority
             width={1000}
             height={500}
           />

@@ -1,4 +1,4 @@
-import Card from '@components/Card'
+import Card from '@components/CSRcard'
 import Seo from '@components/Seo'
 import { csrActivities } from '@utils/menu'
 import Image from 'next/image'
@@ -23,8 +23,9 @@ const page = () => {
         <div>
           <Image
             src="/bannerImage/CSRBanner.png"
-            layout="responsive"
             alt="Chartered Housing  - CSR Activities"
+            className="responsive-image"
+            priority
             width={1000}
             height={500}
           />
@@ -39,6 +40,7 @@ const page = () => {
               <div className="horizontal-line mb-4" />
             </div>
           </Col>
+
           <Col
             xs={12}
             className="d-flex justify-content-center pb-5 gap-4 flex-wrap"

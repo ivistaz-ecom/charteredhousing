@@ -24,7 +24,9 @@ const page = () => {
         <div>
           <Image
             src="/bannerImage/CompletedBanner.png"
-            layout="responsive"
+            alt="Apartments For Sale in Kanakapura Road, Bangalore"
+            className="responsive-image"
+            priority
             width={1000}
             height={500}
           />

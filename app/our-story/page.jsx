@@ -23,7 +23,8 @@ const page = () => {
         <div>
           <Image
             src="/bannerImage/OurStoryBanner.png"
-            layout="responsive"
+            className="responsive-image"
+            priority
             width={1000}
             height={500}
           />

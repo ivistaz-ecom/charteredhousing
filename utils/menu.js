@@ -349,75 +349,57 @@ export const csrActivities = [
   },
 ]
 
-export const sitemap = [
+export const blogs = [
   {
     id: 1,
-    imageUrl: '',
-    alt: '',
     title: 'HOW DO I CHOOSE A GOOD HOUSE MOVING COMPANY?',
     description:
       'Moving into a new home is a delightful experience. You’ll soon be free from the clutches of monthly rental, the hassles of shifting homes every year and the guilt of restricting your kids to express their creativity on the walls. But, just like having to scale a peak before you get to the vantage point,…',
   },
   {
     id: 2,
-    imageUrl: '',
-    alt: '',
     title: 'HOW TO MAKE YOUR HOUSE A SMART HOME',
     description:
       'With the changing times, technology too gets revolutionized. Such advanced technologies can be used to make your home smarter, thereby more safe and secure. Not only would it provide safety but also eases your life to a greater extent. Smart devices and appliances are built having energy saving modes,',
   },
   {
     id: 3,
-    imageUrl: '',
-    alt: '',
     title: 'HOW TO MAKE ZERO WASTE LIVING IN AN APARTMENT',
     description:
       'The world is changing, and today we’re constantly looking for ways to make not just our lives better but also build a better planet for our kids and their children. There’s enough talk about global warming, rising pollution levels, higher number of air-borne diseases and many such concerns.',
   },
   {
     id: 4,
-    imageUrl: '',
-    alt: '',
     title: 'BASIC REAL ESTATE TERMS YOU SHOULD KNOW BEFORE BUYING A FLAT',
     description:
       'Buying a home is a once in a lifetime decision. Which explains why you must do your homework thoroughly and be aware of what you’re getting into. Of the many things that you should be aware of before signing on the dotted line and getting the keys to your new home is knowing the basic…',
   },
   {
     id: 5,
-    imageUrl: '',
-    alt: '',
     title: 'COMPLETE GUIDE FOR SHIFTING YOUR HOUSE',
     description:
       'Living in a city like Bangalore gives you the freedom to unleash your full potential, dream and own a home. Which is why, many come to this beautiful city in search of jobs, make a mark and get prepared to own their dream home in a city that has given them everything. From villas in electronics…',
   },
   {
     id: 6,
-    imageUrl: '',
-    alt: '',
     title: 'TO LIVE IN THE CITY OR AWAY FROM IT?',
     description:
       'Buying a home is a once in a lifetime decision. Which explains why you must do your homework thoroughly and be aware of what you’re getting into. Of the many things that you should be aware of before signing on the dotted line and getting the keys',
   },
   {
     id: 7,
-    imageUrl: '',
-    alt: '',
     title: 'WHY LUXURY VILLAS IN BANGALORE ARE BETTER THAN 5 STAR HOTELS?',
     description:
       'As there can be a change seen in the travel industry so also there is a change in the expectations and mindsets of the daily traveller. Once a upon a time there was a craving to stay in a 5 star hotel to indulge in luxury experiences, but now people are orienting towards villas that…',
   },
   {
     id: 8,
-    imageUrl: '',
-    alt: '',
     title: 'SHOULD I BUY A HOUSE OR RENT A HOUSE?',
     description:
       'Looking back in history, it was always profitable and suitable to buy a house rather tan renting one. The reason was simple- it was a stable investment and the house was expected to serve the needs of its inhabitants for decades on end. In todays times however, that need not be the case.',
   },
   {
     id: 9,
-    imageUrl: '',
-    alt: '',
     title:
       'REAL ESTATE INVESTMENTS &#8211; AN EXCEPTIONAL WAY TO MAXIMISE PROFITS',
     description:
@@ -425,8 +407,6 @@ export const sitemap = [
   },
   {
     id: 10,
-    imageUrl: '',
-    alt: '',
     title: 'EXPERIENCE THE LUXURY THAT BANGALORE HAS TO OFFER',
     description:
       'Bangalore is developing at a fast pace and the cityscape is always changing itself to accommodate luxurious hotspots. There are many posh areas that house high-end shopping malls, restaurants, clubs, supermarkets, villas, and luxurious 2&3 BHK flats in Bangalore.',

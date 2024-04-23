@@ -24,7 +24,8 @@ const page = () => {
         <div>
           <Image
             src="/bannerImage/ElectronicCityBanner.png"
-            layout="responsive"
+            className="responsive-image"
+            priority
             alt="Chartered Veda - Plots in Nelamangala, Bangalore"
             width={1000}
             height={500}
