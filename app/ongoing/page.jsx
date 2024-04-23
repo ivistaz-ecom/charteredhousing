@@ -3,10 +3,23 @@ import { amenities, banksLogo, ongoingProject } from '@utils/menu'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import SliderCon from '../../components/Slider'
+import Seo from '@components/Seo'
 
 const page = () => {
+  const pageTitle = 'Chartered Housing'
+  const pageDescription =
+    'real estate developers in bangalore, real estate builders in bangalore, best property developers in bangalore'
+  const MetaImage = '/bannerImage/OngoingBanner.png'
+  const url = 'https://www.charteredhousing.com/'
+
   return (
     <>
+      <Seo
+        pageTitle={pageTitle}
+        pageDescription={pageDescription}
+        MetaImage={MetaImage}
+        url={url}
+      />
       <section className="mb-5">
         <div>
           <Image

@@ -5,10 +5,23 @@ import Testimonials from '@components/Testimonials'
 import { businessEthics, leadership } from '@utils/menu'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
+import Seo from '@components/Seo'
 
 const Home = () => {
+  const pageTitle = 'Chartered Housing'
+  const pageDescription =
+    'real estate developers in bangalore, real estate builders in bangalore, best property developers in bangalore'
+  const MetaImage = '/homePage/Mask Group 261.png'
+  const url = 'https://www.charteredhousing.com/'
+
   return (
     <>
+      <Seo
+        pageTitle={pageTitle}
+        pageDescription={pageDescription}
+        MetaImage={MetaImage}
+        url={url}
+      />
       <div>
         <Image
           src="/bannerImage/HomeBanner.png"

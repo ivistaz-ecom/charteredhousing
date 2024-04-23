@@ -3,10 +3,23 @@ import { banksLogo, vedaProject } from '@utils/menu'
 import { Container, Row, Col } from 'react-bootstrap'
 import SliderCon from '../../components/Slider'
 import Image from 'next/image'
+import Seo from '@components/Seo'
 
 const page = () => {
+  const pageTitle = 'Chartered Housing'
+  const pageDescription =
+    'Site For Sale In Nelamangala, residential plots in nelamangala, residential plots in nelamangala bangalore'
+  const MetaImage = '/bannerImage/ElectronicCityBanner.png'
+  const url = 'https://www.charteredhousing.com/'
   return (
     <>
+      <Seo
+        pageTitle={pageTitle}
+        pageDescription={pageDescription}
+        MetaImage={MetaImage}
+        url={url}
+      />
+
       <section className="mb-5">
         <div>
           <Image

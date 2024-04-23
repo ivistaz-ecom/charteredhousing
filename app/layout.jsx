@@ -3,17 +3,12 @@ import '@styles/globals.css'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Scroller from '@components/Scroller'
-
-export const metadata = {
-  title: 'Chartered Housing',
-  description:
-    'The Chartered group was established in 1983 with Finance, Hire Purchase and Leasing as its core businesses',
-}
+import Script from 'next/script'
 
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body>
+      <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -24,12 +19,14 @@ const RootLayout = ({ children }) => {
           href="https://db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift"
           rel="stylesheet"
         />
-        <script
+        <Script
           rel="preload"
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
           crossorigin="anonymous"
-        ></script>
+        ></Script>
+      </head>
+      <body>
         <main>
           <Header />
           {children}

@@ -1,3 +1,4 @@
+import Seo from '@components/Seo'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -10,8 +11,20 @@ const page = () => {
       </div>
     )
   }
+  const pageTitle = 'Chartered Housing'
+  const pageDescription =
+    'real estate developers in bangalore, real estate builders in bangalore, best property developers in bangalore'
+  const MetaImage = '/bannerImage/PrivacyBanner.png'
+  const url = 'https://www.charteredhousing.com/'
+
   return (
     <>
+      <Seo
+        pageTitle={pageTitle}
+        pageDescription={pageDescription}
+        MetaImage={MetaImage}
+        url={url}
+      />
       <section className="mb-5">
         <div>
           <Image
