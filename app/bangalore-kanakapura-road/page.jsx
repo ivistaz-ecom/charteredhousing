@@ -34,7 +34,7 @@ const page = () => {
       <Container className="mt-5 p-5 mb-5">
         <Row className="ps-5 pe-5">
           <Col xs={12} md={6}>
-            <h1 className="mb-0">PROJECTS </h1>
+            <h1 className="mb-0">APARTMENTS</h1>
             <h1 className="fs-2 mt-0">ON KANAKAPURA ROAD</h1>
             <div className="horizontal-line mb-4" />
           </Col>
