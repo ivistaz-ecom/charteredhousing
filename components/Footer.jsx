@@ -67,16 +67,6 @@ const Footer = () => {
                           CSR
                         </Link>
                       </li>
-                      <li>
-                        <Link className="custom-link" href="/">
-                          Careers
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="custom-link" href="/">
-                          FAQs
-                        </Link>
-                      </li>
                     </ul>
                   </div>
                   <hr />
@@ -98,13 +88,6 @@ const Footer = () => {
           </div>
           <div>
             <p>
-              <Link
-                className="text-decoration-none text-white underline-on-hover"
-                href="terms-of-use"
-              >
-                Terms of Use
-              </Link>{' '}
-              |{' '}
               <Link
                 className="text-decoration-none text-white underline-on-hover"
                 href="privacy-policy"

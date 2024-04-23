@@ -23,7 +23,7 @@ const page = () => {
         <Row className="ps-5 pe-5">
           <Col xs={12} md={6}>
             <h1 className="mb-0">PROJECTS</h1>
-            <h1 className="fs-2 mt-0">ON ELECTRONIC CITY</h1>
+            <h1 className="fs-2 mt-0">IN NELAMANGALA</h1>
 
             <div className="horizontal-line mb-4" />
           </Col>
