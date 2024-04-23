@@ -1,7 +1,7 @@
 const BusinessEthics = ({ ethics }) => {
   return (
     <>
-      <div className="accordion mb-3 px-5 mx-5" id="#accordionExample">
+      <div className="accordion mb-3 px-md-5 mx-md-5" id="#accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button

@@ -895,7 +895,7 @@ export const leadership = [
     name: 'Mr. BALAKRISHNA HEGDE',
     post: 'Founder and Managing Director',
     description:
-      'A banker, Mr. Balakrishna Hegde decided to take the plunge into the world of entrepreneurship. He founded Chartered Leasing – a financial company, in 1983. Six years on, he set foot in the real estate world with Chartered Housing. Today, it is an integral part of the Chartered Group, which includes Chartered Properties. Currently, he is an executive member of the National Governing Council of CREDAI.',
+      'A banker, Mr. Balakrishna Hegde decided to take the plunge into the world of entrepreneurship. He founded Chartered Leasing – a financial company, in 1983. Six years on, he set foot in the real estate world with Chartered Housing.',
   },
   {
     id: 2,

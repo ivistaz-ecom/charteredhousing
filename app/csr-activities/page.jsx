@@ -26,7 +26,10 @@ const page = () => {
               <div className="horizontal-line mb-4" />
             </div>
           </Col>
-          <Col className="d-flex justify-content-center pb-5 gap-4 flex-wrap">
+          <Col
+            xs={12}
+            className="d-flex justify-content-center pb-5 gap-4 flex-wrap"
+          >
             {csrActivities.map((item) => (
               <Card key={item.id} cardItems={item} />
             ))}

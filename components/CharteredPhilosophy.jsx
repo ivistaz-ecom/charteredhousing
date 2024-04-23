@@ -5,21 +5,22 @@ const CharteredPhilosophy = () => {
   return (
     <div className="chartered-philosophy-con">
       <Container>
-        <Row className="d-flex flex-column flex-lg-row justify-content-between align-items-center p-5 mx-5">
+        <Row className="d-flex flex-column flex-lg-row justify-content-between align-items-center p-5 mx-4">
           <Col>
             <Image
               src="/homePage/Group 49823.svg"
               alt="Chartered Housing Philosophy"
-              width={335}
-              height={250}
+              width={300}
+              height={225}
               className="mb-4"
             />
           </Col>
+
           <Col>
-            <div className="horizontal-line d-none d-md-block" />
+            <div className="horizontal-line d-none d-lg-block" />
           </Col>
 
-          <Col xs={12} md={5}>
+          <Col xs={12} lg={5}>
             <div className="mt-4">
               <p className="fst-italic">
                 What man conceives in his mind, that he expresses through

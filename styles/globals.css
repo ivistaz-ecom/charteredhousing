@@ -274,7 +274,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .quality-con {
     margin-top: -45px;
     img {
@@ -295,13 +295,33 @@ body {
 .testimonials-bg {
   background-image: url('/homePage/Group 49908.png');
   background-size: cover;
-  height: 80vh;
+  height: auto;
+}
+
+.testimonials-con {
+  margin-top: -120px;
+}
+
+@media screen and (min-width: 1200px) {
+  .testimonials-bg {
+    height: 70vh;
+  }
+  .testimonials-con {
+    margin-top: -225px;
+    margin-bottom: 35px;
+  }
 }
 
 .leader-bg {
   background-color: #eaeaea;
   margin-top: -75px;
-  min-height: 580px;
+  min-height: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .leader-bg {
+    min-height: 615px;
+  }
 }
 
 .leader-name {
@@ -444,4 +464,9 @@ button.slick-arrow.slick-prev {
 .table thead th {
   background-color: var(--red-color) !important;
   color: #fff !important;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
 }
