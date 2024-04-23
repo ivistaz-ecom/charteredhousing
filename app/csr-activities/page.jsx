@@ -25,7 +25,6 @@ const page = () => {
             src="/bannerImage/CSRBanner.png"
             alt="Chartered Housing  - CSR Activities"
             className="responsive-image"
-            priority
             width={1000}
             height={500}
           />

@@ -12,7 +12,7 @@ const csrDetails = ({ params }) => {
         <div>
           <Image
             src="/bannerImage/CSRBanner.png"
-            layout="responsive"
+            className="responsive-image"
             alt="Chartered Housing  - CSR Activities"
             width={1000}
             height={500}

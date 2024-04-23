@@ -26,7 +26,6 @@ const page = () => {
             src="/bannerImage/BlogBanner.png"
             alt="Chartered Housing - HTML Sitemap"
             className="responsive-image"
-            priority
             width={1000}
             height={500}
           />

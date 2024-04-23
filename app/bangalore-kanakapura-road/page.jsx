@@ -24,7 +24,6 @@ const page = () => {
           <Image
             src="/bannerImage/KanakapuraRoadBanner.png"
             className="responsive-image"
-            priority
             alt="Luxury Flats and Apartments in Kanakapura Road, Bangalore "
             width={1000}
             height={500}

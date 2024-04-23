@@ -24,7 +24,6 @@ const page = () => {
           <Image
             src="/bannerImage/LocationBanner.png"
             className="responsive-image"
-            priority
             width={1000}
             height={500}
           />

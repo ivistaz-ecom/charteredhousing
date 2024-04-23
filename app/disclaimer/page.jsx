@@ -24,7 +24,6 @@ const page = () => {
             src="/bannerImage/DisclaimerBanner.png"
             alt="Chartered Housing Ongoing Apartment Project in Bangalore"
             className="responsive-image"
-            priority
             width={1000}
             height={500}
           />

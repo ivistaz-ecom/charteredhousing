@@ -25,7 +25,6 @@ const page = () => {
             src="/bannerImage/ElectronicCityBanner.png"
             alt="Villas between Koramangala and Electronic city, Bangalore."
             className="responsive-image"
-            priority
             width={1000}
             height={500}
           />
