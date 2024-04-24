@@ -237,7 +237,7 @@ body {
   display: flex;
   align-items: flex-end;
   background-size: cover;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .ongoing-project {
@@ -256,7 +256,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: #edebe8;
-  width: 75%;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .amenities-item-con {
+    width: 75%;
+  }
 }
 
 .amenities-item {
