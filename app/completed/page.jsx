@@ -20,7 +20,7 @@ const page = () => {
         url={url}
       />
 
-      <section className="mb-5">
+      <section className="mb-lg-5">
         <div>
           <Image
             src="/bannerImage/CompletedBanner.png"
@@ -32,8 +32,8 @@ const page = () => {
         </div>
       </section>
 
-      <Container className="mt-5 p-5">
-        <Row className="ps-5 pe-5">
+      <Container className="mt-3 mt-lg-5 p-4 p-lg-5">
+        <Row className="px-3 px-lg-5">
           <Col xs={12} md={6}>
             <h1>
               COMPLETED <br /> PROJECTS
@@ -53,7 +53,7 @@ const page = () => {
         </Row>
       </Container>
 
-      <Container className="mt-5">
+      <Container className="mt-3 mt-lg-5">
         <Row>
           <Col>
             <ul className="d-flex justify-content-center flex-wrap project-custom-border p-3 pb-0">

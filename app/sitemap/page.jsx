@@ -160,22 +160,6 @@ const page = () => {
                   CSR ACTIVITIES
                 </Link>
               </li>
-              <li>
-                <Link
-                  className="text-decoration-none underline-on-hover text-black"
-                  href="/careeres"
-                >
-                  CAREERES
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-decoration-none underline-on-hover text-black"
-                  href="/faqs"
-                >
-                  FAQS
-                </Link>
-              </li>
             </ul>
           </Col>
         </Row>

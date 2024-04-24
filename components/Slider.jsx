@@ -80,8 +80,8 @@ function Partners({ imageUrls }) {
 
   return (
     <>
-      <div className="text-center p-4">
-        <div className="my-3">
+      <div className="text-center ">
+        <div className="my-2">
           <div className="container">
             <div className="slider-container">
               <Slider

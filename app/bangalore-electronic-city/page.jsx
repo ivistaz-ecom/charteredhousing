@@ -19,7 +19,7 @@ const page = () => {
         MetaImage={MetaImage}
         url={url}
       />
-      <section className="mb-5">
+      <section className="mb-lg-5">
         <div>
           <Image
             src="/bannerImage/ElectronicCityBanner.png"
@@ -31,8 +31,8 @@ const page = () => {
         </div>
       </section>
 
-      <Container className="mt-5 p-5 mb-5">
-        <Row className="ps-5 pe-5">
+      <Container className="mt-3 mt-lg-5 p-4 p-lg-5">
+        <Row className="px-3 px-lg-5 mb-4">
           <Col xs={12} md={6}>
             <h1 className="mb-0">VILLAS</h1>
             <h1 className="fs-2 mt-0">IN ELECTRONIC CITY</h1>
@@ -74,7 +74,7 @@ const page = () => {
           <Col>
             <SliderCon imageUrls={grasshopperProject} />
 
-            <div className="ms-5 mt-5 ps-5 w-75">
+            <div className="m-4 m-lg-5 px-5">
               <h1>THE STORY</h1>
               <div className="horizontal-line mb-4" />
               <p>
@@ -95,7 +95,7 @@ const page = () => {
               <p>Welcome to a new home in Kanakapura.</p>
             </div>
 
-            <div className="ms-5 mt-5 ps-5 w-75">
+            <div className="m-4 m-lg-5 px-5">
               <h3 className="fw-light mb-3">HIGHLIGHTS</h3>
               <div className="highlight-border p-3">
                 <p>
@@ -112,7 +112,7 @@ const page = () => {
               </div>
             </div>
 
-            <div className="ms-5 mt-5 ps-5 w-75">
+            <div className="m-4 m-lg-5 px-5">
               <h3 className="fw-light mb-3">PROJECT DETAILS</h3>
               <div className="highlight-border p-3">
                 <ul className="d-flex flex-wrap project-details-list-con">

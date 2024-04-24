@@ -19,7 +19,7 @@ const page = () => {
         MetaImage={MetaImage}
         url={url}
       />
-      <section className="mb-5">
+      <section className="mb-lg-5">
         <div>
           <Image
             src="/bannerImage/OurStoryBanner.png"
@@ -30,8 +30,8 @@ const page = () => {
         </div>
       </section>
 
-      <Container className="mt-5 p-5">
-        <Row className="ps-5 pe-5">
+      <Container className="mt-3 mt-lg-5 p-4 p-lg-5">
+        <Row className="px-3 px-lg-5">
           <Col xs={12} md={6}>
             <h1>
               OUR <br className="d-none d-md-block" /> STORY
@@ -85,7 +85,7 @@ const page = () => {
                   </ul>
                 </div>
               </div>
-              <div className="mission-con ms-lg-2 pt-5">
+              <div className="vision-con mission-con ms-lg-2 pt-5">
                 <div className="p-4 mt-5 content-con">
                   <p className="fs-4">Mission</p>
                   <div className="d-flex gap-3">
@@ -124,7 +124,7 @@ const page = () => {
         </Row>
       </Container>
 
-      <Container className="mt-5 w-50">
+      <Container className="mt-5">
         <Row>
           <Col className="text-center">
             <h1>AWARDS AND RECOGNITIONS</h1>

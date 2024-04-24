@@ -186,18 +186,30 @@ body {
 .chartered-1956 {
   background-color: #fff;
   position: absolute;
-  margin-top: -120px;
+  margin-top: -105px;
   padding: 20px;
   p {
     font-family: 'Roboto Condensed';
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
   }
   h1 {
     font-family: 'Fjalla One';
-    font-size: 80px;
+    font-size: 45px;
     color: #ec1d23;
     letter-spacing: 3px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .chartered-1956 {
+    margin-top: -120px;
+    p {
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 80px;
+    }
   }
 }
 
@@ -339,6 +351,7 @@ body {
   margin-bottom: 15px;
   color: #fff;
   cursor: pointer;
+  height: auto;
   :hover {
     background-color: #fff;
     color: #000;
@@ -347,17 +360,6 @@ body {
 
 .mission-con {
   background-image: url('/storyPage1/Group 49913@2x.png');
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 100%;
-  margin-bottom: 15px;
-  color: #fff;
-  :hover {
-    background-color: #fff;
-    color: #000;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -469,4 +471,23 @@ button.slick-arrow.slick-prev {
 .responsive-image {
   width: 100%;
   height: auto;
+}
+
+.award-card {
+  flex: 1;
+  border-bottom: 1px solid #ed1c25;
+}
+
+.award-card:last-child {
+  border-bottom: none;
+}
+
+@media screen and (min-width: 768px) {
+  .award-card {
+    border-right: 1px solid #ed1c25;
+    border-bottom: none;
+  }
+  .award-card:last-child {
+    border-right: none;
+  }
 }
