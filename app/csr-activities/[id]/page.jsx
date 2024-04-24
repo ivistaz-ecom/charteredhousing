@@ -13,6 +13,7 @@ const csrDetails = ({ params }) => {
           <Image
             src="/bannerImage/CSRBanner.png"
             className="responsive-image"
+            loading="lazy"
             alt="Chartered Housing  - CSR Activities"
             width={1000}
             height={500}

@@ -24,6 +24,7 @@ const page = () => {
           <Image
             src="/bannerImage/OurStoryBanner.png"
             className="responsive-image"
+            loading="lazy"
             width={1000}
             height={500}
           />

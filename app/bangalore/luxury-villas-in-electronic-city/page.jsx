@@ -23,6 +23,7 @@ const page = () => {
         <div>
           <Image
             src="/bannerImage/ElectronicCityBanner.png"
+            loading="lazy"
             alt="Villas between Koramangala and Electronic city, Bangalore."
             className="responsive-image"
             width={1000}

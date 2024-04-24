@@ -23,6 +23,7 @@ const page = () => {
           <Image
             src="/bannerImage/DisclaimerBanner.png"
             alt="Chartered Housing Ongoing Apartment Project in Bangalore"
+            loading="lazy"
             className="responsive-image"
             width={1000}
             height={500}
