@@ -71,8 +71,8 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/location">
-                    Location
+                  <Link className="dropdown-item" href="/#leadership">
+                    Leadership
                   </Link>
                 </li>
               </ul>

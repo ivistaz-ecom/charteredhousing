@@ -137,7 +137,7 @@ const Home = () => {
       </Container>
 
       <Container fluid>
-        <Row className="d-flex flex-column flex-lg-row mt-4">
+        <Row className="d-flex flex-column flex-lg-row mt-4" id="leadership">
           {leadership.map((item) => (
             <Leadership key={item.id} leadershipDetails={item} />
           ))}
