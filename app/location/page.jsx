@@ -1,6 +1,6 @@
 import Blogs from '@components/Blogs'
 import Seo from '@components/Seo'
-import { blogsMenu } from '@utils/menu'
+import { locations } from '@utils/menu'
 import Image from 'next/image'
 import { Container } from 'react-bootstrap'
 
@@ -30,7 +30,7 @@ const page = () => {
         </div>
       </section>
       <Container>
-        {blogsMenu.map((item) => (
+        {locations.map((item) => (
           <Blogs key={item.id} blogsItem={item} />
         ))}
       </Container>

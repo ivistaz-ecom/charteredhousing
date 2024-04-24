@@ -1,7 +1,7 @@
 import BankLogo from '@components/BankLogo'
 import { banksLogo, vedaProject } from '@utils/menu'
 import { Container, Row, Col } from 'react-bootstrap'
-import SliderCon from '../../components/Slider'
+import SliderCon from '../../../components/Slider'
 import Image from 'next/image'
 import Seo from '@components/Seo'
 

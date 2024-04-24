@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Button } from 'react-bootstrap'
+import ReadMoreBtn from './ReadMoreBtn'
 
 const Blogs = ({ blogsItem }) => {
   const {
+    id,
+    slug,
     title,
     description1,
     description2,
@@ -42,9 +44,7 @@ const Blogs = ({ blogsItem }) => {
             />
             <h4 className="fw-light mt-4">{name}</h4>
             <p className="mt-4 w-75">{details}</p>
-            <Button className="rounded-0 border-0 enquire-btn mt-4">
-              Read More
-            </Button>
+            <ReadMoreBtn slug={slug} />
           </div>
         </Col>
       </Row>

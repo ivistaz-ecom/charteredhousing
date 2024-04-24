@@ -413,9 +413,10 @@ export const blogs = [
   },
 ]
 
-export const blogsMenu = [
+export const locations = [
   {
     id: 1,
+    slug: '/bangalore/apartments-on-kanakapura-road',
     title: 'APARTMENTS ON KANAKAPURA ROAD',
     description1:
       'Located towards the south of Bangalore, Kanakapura Road has developed to become a self-sufficient location. In the last few years making it a preferred choice for real estate developers and homebuyers. Schools including Kumarans, BGS, JSS & DPS and hospitals like Apollo, Fortis, and BGS are some renowned names in this locale. A host of supermarkets ranging from Metro to D-Mart and Family Mart, are situated within the vicinity of the residential areas add more value. Adventure sports centers like Dirt Mania and Raceway Motorsports are located in close proximity.',
@@ -430,6 +431,7 @@ export const blogsMenu = [
   },
   {
     id: 2,
+    slug: '/bangalore/luxury-villas-in-electronic-city',
     title: 'VILLAS IN ELECTRONIC CITY',
     description1:
       'Electronics City, known as the Information Technology Hub of Bangalore, is strategically located between Koramangala and Whitefield. Home to over 200 IT/ITES companies, the locale is well-connected to the rest of Bangalore. Known for its reputed schools like DPS, VIBGYOR and Ebenezer International and renowned hospitals like Sparsh, Narayana, and Fortis, Electronics City has the best of everything. When it comes to shopping centers, restaurants and malls, some of the city’s best are located in and near Electronics City. The presence of automobile showrooms of Audi, BMW and Porsche add to the glamour of the area.',
@@ -443,6 +445,7 @@ export const blogsMenu = [
   },
   {
     id: 3,
+    slug: '/bangalore/plots-in-nelamangala',
     title: 'PLOTS IN NELAMANGALA',
     description1:
       'Today, the city of Bangalore is expanding and one of the most promising localities is Nelamangala. Located close to two National Highways, NH-48 (Bangalore-Mangalore) and NH-4 (Mumbai-Chennai), Nelamanagala has developed a lot in a short span of time.',

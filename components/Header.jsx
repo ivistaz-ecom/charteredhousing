@@ -77,58 +77,19 @@ const Header = () => {
                 </li>
               </ul>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Locations
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    href="/bangalore-kanakapura-road"
-                  >
-                    Kanakapura Road
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    href="/bangalore-electronic-city"
-                  >
-                    Electronic City
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" href="/bangalore-nelamangala">
-                    Nelamangala
-                  </Link>
-                </li>
-              </ul>
+
+            <li class="nav-item">
+              <Link class="nav-link" href="/location">
+                Location
+              </Link>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Resources
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <Link className="dropdown-item" href="/csr-activities">
-                    CSR
-                  </Link>
-                </li>
-              </ul>
+
+            <li class="nav-item">
+              <Link class="nav-link" href="/csr-activities">
+                CSR
+              </Link>
             </li>
+
             <EnquireForm />
           </ul>
         </div>

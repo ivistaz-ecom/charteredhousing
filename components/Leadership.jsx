@@ -17,7 +17,7 @@ const Leadership = ({ leadershipDetails }) => {
             <p className="leader-name mb-1">{leadershipDetails.name}</p>
             <p className="fs-6 mt-0">{leadershipDetails.post}</p>
             <p>{leadershipDetails.description}</p>
-            <p>know more</p>
+            <p className="mt-auto">know more</p>
           </div>
         </div>
       </div>
