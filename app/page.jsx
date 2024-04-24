@@ -25,6 +25,7 @@ const Home = () => {
       <div>
         <Image
           src="/bannerImage/HomeBanner.png"
+          loading="lazy"
           alt="Villas between Koramangala and Electronic city, Bangalore."
           className="responsive-image"
           width={1000}
