@@ -25,7 +25,6 @@ const page = () => {
           <Image
             src="/bannerImage/NelamangalaBanner.png"
             className="responsive-image"
-            loading="lazy"
             alt="Chartered Veda - Plots in Nelamangala, Bangalore"
             width={1000}
             height={500}

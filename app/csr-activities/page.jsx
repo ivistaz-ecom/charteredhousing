@@ -24,7 +24,6 @@ const page = () => {
           <Image
             src="/bannerImage/CSRBanner.png"
             alt="Chartered Housing  - CSR Activities"
-            loading="lazy"
             className="responsive-image"
             width={1000}
             height={500}
