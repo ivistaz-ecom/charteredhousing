@@ -333,18 +333,36 @@ body {
 .leader-bg {
   background-color: #eaeaea;
   margin-top: -75px;
-  min-height: auto;
+  height: auto;
 }
 
 @media screen and (min-width: 992px) {
   .leader-bg {
-    min-height: 615px;
+    height: 550px;
   }
 }
 
+.leader-bg > * {
+  height: 50%;
+  display: flex;
+}
+
 .leader-name {
-  color: #ec1d23;
+  color: var(--red-color);
   font-family: 20px;
+}
+
+.arrow-image {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.leader-bg:hover .arrow-image {
+  opacity: 1;
+}
+
+.leader-bg:not(:hover) .arrow-image {
+  opacity: 0;
 }
 
 .vision-con {
@@ -496,4 +514,9 @@ button.slick-arrow.slick-prev {
   .award-card:last-child {
     border-right: none;
   }
+}
+
+.link {
+  text-decoration: none;
+  color: initial;
 }

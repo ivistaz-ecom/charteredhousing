@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Col } from 'react-bootstrap'
 
 const Leadership = ({ leadershipDetails }) => {
@@ -12,14 +13,25 @@ const Leadership = ({ leadershipDetails }) => {
           height={160}
           className="ms-4"
         />
-        <div className="leader-bg p-5">
-          <div className="mt-5 pt-4">
-            <p className="leader-name mb-1">{leadershipDetails.name}</p>
-            <p className="fs-6 mt-0">{leadershipDetails.post}</p>
-            <p>{leadershipDetails.description}</p>
-            <p className="mt-auto">know more</p>
+        <Link href="/about" className="link">
+          <div className="leader-bg d-flex flex-column justify-content-center">
+            <div className="d-flex flex-column m-5">
+              <p className="leader-name mb-1 mt-5">{leadershipDetails.name}</p>
+              <p className="fs-6 mt-0">{leadershipDetails.post}</p>
+              <p>{leadershipDetails.description}</p>
+            </div>
+            <div className="d-flex ps-5">
+              <p className="mt-auto">know more</p>
+              <Image
+                src={leadershipDetails.arrowUrl}
+                alt="arrow"
+                height={50}
+                width={50}
+                className="align-self-end ms-auto arrow-image"
+              />
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
     </Col>
   )

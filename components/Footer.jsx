@@ -52,16 +52,7 @@ const Footer = () => {
                     <ul className="p-0 me-4 w-50">
                       <h4 className="fw-light">Resources</h4>
                       <hr />
-                      <li>
-                        <Link className="custom-link" href="/">
-                          Media
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="custom-link" href="/blog">
-                          Blog
-                        </Link>
-                      </li>
+
                       <li>
                         <Link className="custom-link" href="/csr-activities">
                           CSR

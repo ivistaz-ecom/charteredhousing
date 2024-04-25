@@ -874,15 +874,17 @@ export const leadership = [
   {
     id: 1,
     imageUrl: '/homePage/Mask Group 241.png',
+    arrowUrl: '/homePage/Arrow.png',
     alt: 'Mr A Balakrishna Hegde, Managing Director at Chartered Housing',
     name: 'Mr. BALAKRISHNA HEGDE',
     post: 'Founder and Managing Director',
     description:
-      'A banker, Mr. Balakrishna Hegde decided to take the plunge into the world of entrepreneurship. He founded Chartered Leasing – a financial company, in 1983. Six years on, he set foot in the real estate world with Chartered Housing.',
+      'A banker, Mr. Balakrishna Hegde decided to take the plunge into the world of entrepreneurship. He founded Chartered Leasing – a financial company, in 1983. Six years on, he set foot in the real estate world with Chartered Housing. Today, it is an integral part of the Chartered Group, which includes Chartered Properties. Currently, he is an executive member of the National Governing Council of CREDAI.',
   },
   {
     id: 2,
     imageUrl: '/homePage/Mask Group 275.png',
+    arrowUrl: '/homePage/Arrow.png',
     alt: 'Ms BIMAL Hegde Shetty, Chief Executive Officer',
     name: 'Mr. BIMAL HEGDE',
     post: 'Chief Executive Officer',
@@ -892,11 +894,54 @@ export const leadership = [
   {
     id: 3,
     imageUrl: '/homePage/Mask Group 276.png',
+    arrowUrl: '/homePage/Arrow.png',
     alt: 'Ms Bhakti Hegde Shetty, Director at Chartered Housing',
     name: 'Ms. BHAKTI HEGDE SHETTY',
     post: 'Director',
     description:
       'Spearheading Chartered Interiors – a division that offers a complete dream-home experience, Ms. Bhakti has helped Chartered Interiors reach new heights. Dynamic in her approach, she’s recognized for consumer understanding. Other skills include eye-for-detail, craft, quality enhancement and maintaining relationships. What’s more, her experience, knowledge, and eagerness to know about the latest trends in interior design have propelled Chartered Interiors to great heights.',
+  },
+]
+
+export const leaders = [
+  {
+    id: 1,
+    imageUrl: '/leader/image1.png',
+    alt: 'Mr A Balakrishna Hegde, Managing Director at Chartered Housing',
+    name: 'Mr. BALAKRISHNA HEGDE',
+    post: 'Founder and Managing Director',
+    heading1:
+      'REAL ESTATE INVESTMENTS &#8211; AN EXCEPTIONAL WAY TO MAXIMISE PROFITS',
+    description1:
+      'Aerya Balakrishna Hegde founded the Chartered Group in 1988 after working for a Bank for 12 years. He steers the group with steadfast values & principles. Immaculate in whatever he does, he is forever aiming for perfection. His favourite statement is, “Do not engage in an Image building. If we build ourselves strong, the Image will naturally be strong”. He mentors his team focusing on honesty and meticulousness and these values can be perceived easily in every aspect of the Group’s activities.',
+    heading2:
+      'HE IS INVOLVED IN MANY SOCIAL, CULTURAL & INDUSTRY BODIES, SOME OF WHICH ARE;',
+    description2:
+      'Member of the Office Bearers’ Committee of National CREDAI & Past President of Credai Karnataka Pilots the Business Leadership Programme of Indian Institute of Management - Bangalore for CREDAI Members across the country Former Editor of CREDAI Times the in-house magazine of CREDAI National Chairman, Premaanjali Foundation since 1983 Trustee of Indian Music Experience (IME), Karnataka Janapada Parishath and Dharmasthala Manjunatheshwara Dharmothana Trust. Managing Trustee, Aerya Alva Foundation His op-ed piece was featured in the textbook “Real Estate Finance in India” targeted at B-schools of India Invited as speaker for several National & International Seminars.',
+  },
+  {
+    id: 2,
+    imageUrl: '/leader/image2.png',
+    alt: 'Ms BIMAL Hegde Shetty, Chief Executive Officer',
+    name: 'Mr. BIMAL HEGDE',
+    post: 'Managing Director',
+    heading1: '',
+    description1:
+      'Bimal Hegde holds an MBA from Lancaster University, UK and a Degree in Architecture from RV School of Architecture, Bangalore. He has had deep exposure to Real Estate since 2007 when he joined Chartered. He spearheads various departments such as Design, Marketing, Sales, Business Development & many more at the Corporate level. He believes passionately in the ethical business practices, absolute transparency and highest quality standards that Chartered always stood for. His innate ability to strategically position the Company’s Real Estate products, be it Villas, Apartments or plots, has played a significant role in overcoming the global recession in 2008 and also the testing times between 2016 and 2021 resulting in reaping rich dividends through excellent sales numbers. He is currently the Vice president of Credai Bengaluru. He was instrumental in setting up the Credai youth wing in Karnataka and also in Bangalore.',
+    heading2: '',
+    description2: '',
+  },
+  {
+    id: 3,
+    imageUrl: '/leader/image3.png',
+    alt: 'Ms Bhakti Hegde Shetty, Director at Chartered Housing',
+    name: 'Ms. BHAKTI HEGDE',
+    post: 'Executive Director',
+    heading1: '',
+    description1:
+      'Bhakti Hegde, by qualification, is a Law graduate. She has headed the interior division ever since she entered Chartered in 2010. In addition, she also leads the legal and facilities management departments. She firmly believes that experience trumps qualification. The interiors division under her stewardship has completed over 100 projects. She takes pride in giving her clients homes that do not get outdated by keeping abreast with the changing trends while maintaining functionality. She believes in paying keen attention to the needs and lifestyle of her clients which is very vital from the client’s point of view. Being exceptionally meticulous and highly methodical is a part of her DNA which incidentally is what Chartered is known for. She also wears the hat of the Director Consultant of BNI Bangalore.',
+    heading2: '',
+    description2: '',
   },
 ]
 

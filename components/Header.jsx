@@ -71,7 +71,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/#leadership">
+                  <Link className="dropdown-item" href="/about">
                     Leadership
                   </Link>
                 </li>
