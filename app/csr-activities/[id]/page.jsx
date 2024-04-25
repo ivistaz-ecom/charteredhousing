@@ -57,31 +57,6 @@ const csrDetails = ({ params }) => {
               </tbody>
             </table>
           </Col>
-
-          <Col xs={12}>
-            <div className="border mt-5 p-4">
-              <h3 className="mb-3">RECENT POSTS</h3>
-              <ul className="ongoing-list-con">
-                <li>How do I Choose a Good House Moving Company?</li>
-                <li>How to Make Your House a Smart Home</li>
-                <li>How to Make Zero Waste Living in an Apartment</li>
-                <li>
-                  Basic Real Estate Terms You Should Know Before Buying a Flat
-                </li>
-                <li>Complete Guide for Shifting Your House</li>
-                <li>To Live in the City or Away From It?</li>
-                <li>
-                  Why Luxury Villas in Bangalore are Better than 5 Star Hotels?
-                </li>
-                <li>Should I buy a house or rent a house?</li>
-                <li>
-                  Real Estate Investments &#8211; An Exceptional Way to Maximise
-                  Profits
-                </li>
-                <li>Experience the luxury that Bangalore has to offer</li>
-              </ul>
-            </div>
-          </Col>
         </Row>
       </Container>
     </>

@@ -91,9 +91,8 @@ const page = () => {
                   <div className="d-flex gap-3">
                     <ul className="list-con">
                       <li>
-                        To strive and build high quality To strive and build
-                        high-quality residential structures and pursue
-                        commercial spaces as well.
+                        To strive and build high-quality residential structures
+                        and pursue commercial spaces as well.
                       </li>
 
                       <li>

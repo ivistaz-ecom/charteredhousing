@@ -448,11 +448,11 @@ export const locations = [
     slug: '/bangalore/plots-in-nelamangala',
     title: 'PLOTS IN NELAMANGALA',
     description1:
-      'Today, the city of Bangalore is expanding and one of the most promising localities is Nelamangala. Located close to two National Highways, NH-48 (Bangalore-Mangalore) and NH-4 (Mumbai-Chennai), Nelamanagala has developed a lot in a short span of time.',
+      'Located close to two National Highways, NH-48 (Bangalore-Mangalore) and NH-4 (Mumbai-Chennai), Nelamanagala has developed a lot in a short span of time.',
     description2:
       'The expressway project between Nelamangala and Yeshwantpur has also fuelled more developments and helped ease the strain on the roadways. This project has also helped connect the area to the airport and has significantly reduced the travel time. It has also helped attract industrial developments and the government has identified the area as having the potential to house small-scale industry projects. It is already home to a number of warehouses.',
     description3:
-      'The value of land in Nelamangala has already begun to show steady appreciation. Many developers have chosen the locality for their next projects as it offers easy connectivity to other areas, schools, colleges and industrial areas. Chartered Housing offers plots in Nelamangala, in an eco-friendly environment, and with all modern amenities. The area offers pleasant green cover unlike other areas in Bangalore and by investing in these plots in Bangalore, enjoy easy access to the city while enjoying the peace and quiet that comes with the locality.',
+      'Chartered Housing offers plots in Nelamangala, in an eco-friendly environment, and with all modern amenities. The area offers pleasant green cover unlike other areas in Bangalore and by investing in these plots in Bangalore, enjoy easy access to the city while enjoying the peace and quiet that comes with the locality.',
     imageUrl: '/storyPage2/Image 41.png',
     name: 'CHARTERED VEDA',
     details:
@@ -814,7 +814,7 @@ export const amenities = [
   {
     id: 1,
     logoUrl: '/ongoingProject/Amenities 49845.svg',
-    title: 'Gymnasium with multi gym equipment',
+    title: 'Gymnasium with multi-gym equipment',
   },
   {
     id: 2,
@@ -910,8 +910,7 @@ export const leaders = [
     alt: 'Mr A Balakrishna Hegde, Managing Director at Chartered Housing',
     name: 'Mr. BALAKRISHNA HEGDE',
     post: 'Founder and Managing Director',
-    heading1:
-      'REAL ESTATE INVESTMENTS &#8211; AN EXCEPTIONAL WAY TO MAXIMISE PROFITS',
+    heading1: 'REAL ESTATE INVESTMENTS; AN EXCEPTIONAL WAY TO MAXIMISE PROFITS',
     description1:
       'Aerya Balakrishna Hegde founded the Chartered Group in 1988 after working for a Bank for 12 years. He steers the group with steadfast values & principles. Immaculate in whatever he does, he is forever aiming for perfection. His favourite statement is, “Do not engage in an Image building. If we build ourselves strong, the Image will naturally be strong”. He mentors his team focusing on honesty and meticulousness and these values can be perceived easily in every aspect of the Group’s activities.',
     heading2:

@@ -92,8 +92,8 @@ const page = () => {
                   <span className="fw-bold">Location:</span>
                   <span>
                     {' '}
-                    Vasanthnagar, Palace Road (part of Bengaluru’s Central
-                    Business District-CBD) Opp. Mt. Carmel’s College, near
+                    Vasanthnagar, Palace Road(part of Bengaluru’s Central
+                    Business District-CBD), Opp. Mt. Carmel’s College, near
                     Shangri-La Hotel
                   </span>
                 </p>

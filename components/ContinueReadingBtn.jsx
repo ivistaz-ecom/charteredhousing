@@ -13,7 +13,7 @@ const ContinueReadingBtn = ({ id }) => {
       variant="btn btn-primary"
       className="rounded-0 enquire-btn border-0 mt-auto"
     >
-      Continue reading
+      Know More
     </Button>
   )
 }

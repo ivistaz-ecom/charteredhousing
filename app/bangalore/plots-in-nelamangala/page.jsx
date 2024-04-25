@@ -43,11 +43,9 @@ const page = () => {
           <Col xs={12} md={6}>
             <div className="mb-5">
               <p>
-                Today, the city of Bangalore is expanding and one of the most
-                promising localities is Nelamangala. Located close to two
-                National Highways, NH-48 (Bangalore-Mangalore) and NH-4
-                (Mumbai-Chennai), Nelamanagala has developed a lot in a short
-                span of time.
+                Located close to two National Highways, NH-48
+                (Bangalore-Mangalore) and NH-4 (Mumbai-Chennai), Nelamanagala
+                has developed a lot in a short span of time.
               </p>
               <p>
                 The expressway project between Nelamangala and Yeshwantpur has
@@ -60,15 +58,12 @@ const page = () => {
                 warehouses.
               </p>
               <p>
-                The value of land in Nelamangala has already begun to show
-                steady appreciation. Many developers have chosen the locality
-                for their next projects as it offers easy connectivity to other
-                areas, schools, colleges and industrial areas. Chartered Housing
-                offers plots in Nelamangala, in an eco-friendly environment, and
-                with all modern amenities. The area offers pleasant green cover
-                unlike other areas in Bangalore and by investing in these plots
-                in Bangalore, enjoy easy access to the city while enjoying the
-                peace and quiet that comes with the locality.
+                Chartered Housing offers plots in Nelamangala, in an
+                eco-friendly environment, and with all modern amenities. The
+                area offers pleasant green cover unlike other areas in Bangalore
+                and by investing in these plots in Bangalore, enjoy easy access
+                to the city while enjoying the peace and quiet that comes with
+                the locality.
               </p>
             </div>
           </Col>

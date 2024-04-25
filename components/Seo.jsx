@@ -21,9 +21,9 @@ function Seo({ pageTitle, pageDescription, MetaImage, url }) {
       <link rel="canonical" href={url} />
       <meta name="robots" content="index,follow"></meta>
       {/* <!-- Google / Search Engine Tags --> */}
-      <meta itemprop="name" content={pageTitle}></meta>
-      <meta itemprop="description" content={pageDescription}></meta>
-      <meta itemprop="image" content={MetaImage}></meta>
+      <meta itemProp="name" content={pageTitle}></meta>
+      <meta itemProp="description" content={pageDescription}></meta>
+      <meta itemProp="image" content={MetaImage}></meta>
 
       {/* <!-- Facebook Meta Tags --> */}
       <meta property="og:url" content={url}></meta>

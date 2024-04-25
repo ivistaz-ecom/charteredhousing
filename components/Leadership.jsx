@@ -21,7 +21,7 @@ const Leadership = ({ leadershipDetails }) => {
               <p>{leadershipDetails.description}</p>
             </div>
             <div className="d-flex ps-5">
-              <p className="mt-auto">know more</p>
+              <p className="mt-auto">Know More</p>
               <Image
                 src={leadershipDetails.arrowUrl}
                 alt="arrow"
