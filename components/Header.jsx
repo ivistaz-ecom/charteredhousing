@@ -1,8 +1,17 @@
+'use client'
+
+import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import EnquireForm from './Form'
 
 const Header = () => {
+  const [menuCollapsed, setMenuCollapsed] = useState(true)
+
+  const toggleMenu = () => {
+    setMenuCollapsed(!menuCollapsed)
+  }
+
   return (
     <nav className="navbar navbar-expand-lg sticky-top navbar-bg p-3 p-md-4">
       <div className="container-fluid">
@@ -23,11 +32,14 @@ const Header = () => {
           aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={toggleMenu}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse mt-5 mt-lg-0"
+          className={`collapse navbar-collapse mt-5 mt-lg-0 ${
+            !menuCollapsed ? 'show' : ''
+          }`}
           id="navbarNavDropdown"
         >
           <ul className="navbar-nav ms-auto mt-4 mt-lg-0">
@@ -43,12 +55,20 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" href="/ongoing">
+                  <Link
+                    className="dropdown-item"
+                    href="/ongoing"
+                    onClick={toggleMenu}
+                  >
                     Ongoing
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/completed">
+                  <Link
+                    className="dropdown-item"
+                    href="/completed"
+                    onClick={toggleMenu}
+                  >
                     Completed
                   </Link>
                 </li>
@@ -66,12 +86,20 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" href="/our-story">
+                  <Link
+                    className="dropdown-item"
+                    href="/our-story"
+                    onClick={toggleMenu}
+                  >
                     Our Story
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/about">
+                  <Link
+                    className="dropdown-item"
+                    href="/about"
+                    onClick={toggleMenu}
+                  >
                     Leadership
                   </Link>
                 </li>
@@ -79,13 +107,17 @@ const Header = () => {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/location">
+              <Link className="nav-link" href="/location" onClick={toggleMenu}>
                 Location
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" href="/csr-activities">
+              <Link
+                className="nav-link"
+                href="/csr-activities"
+                onClick={toggleMenu}
+              >
                 CSR
               </Link>
             </li>

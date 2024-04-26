@@ -40,7 +40,7 @@ export const csrActivities = [
     alt: 'Chartered Housing  - CSR Activities Rural',
     title: 'RURAL POPULACE',
     description:
-      'Farmers are the lifeline of our country, which is why we have provided health and accident insurance to hundreds of them. We also support weekly health camps at various villages organized by SevanjaliPrathishthana. Women empowerment and youth welfare too have been our areas of interest. Rural No. Of Beneficiaries Direct / Through NGO…',
+      'Farmers are the lifeline of our country, which is why we have provided health and accident insurance to hundreds of them. We also support weekly health camps at various villages organized by SevanjaliPrathishthana. Women empowerment and youth welfare too have been our areas of interest.',
     details: {
       title: 'RURAL POPULACE',
       description:
@@ -73,7 +73,7 @@ export const csrActivities = [
     alt: 'Chartered Housing  - CSR Activities Education',
     title: 'EDUCATION',
     description:
-      'We have always recognised that Education is powerful tool that helps facilitates great change in personal lives as well as the society. Which is why we support and take care of the educational needs of many children directly or indirectly with the help of NGOs. Education No. Of Beneficiaries Direct / Through NGO…',
+      'We have always recognised that Education is powerful tool that helps facilitates great change in personal lives as well as the society. Which is why we support and take care of the educational needs of many children directly or indirectly with the help of NGOs.',
     details: {
       title: 'EDUCATION',
       description:
@@ -118,7 +118,7 @@ export const csrActivities = [
     alt: 'Chartered Housing  - CSR Activities Medicine',
     title: 'MEDICAL AND HEALTH',
     description:
-      'Man’s true wealth is only health. That is the first prerequisite for success in any endeavour and we recognise that. We begin by taking care of those who work with us and extend our support to those who can’t afford quality health and medical care. Health & Medical No. Of Beneficiaries Direct / Through NGO…',
+      'Man’s true wealth is only health. That is the first prerequisite for success in any endeavour and we recognise that. We begin by taking care of those who work with us and extend our support to those who can’t afford quality health and medical care.',
     details: {
       title: 'MEDICAL AND HEALTH',
       description:
@@ -282,7 +282,7 @@ export const csrActivities = [
     alt: 'Chartered Housing  - CSR Activities Miscellaneous',
     title: 'MISCELLANEOUS',
     description:
-      'Our contributions cannot be confined to a particular category or cause. We have focused on society as a whole and are doing what little we can to make the world a better place. Take a look at our other endeavours below: Miscellaneous No. Of Beneficiaries Direct / Through NGO / Organisation Pension To…',
+      'Our contributions cannot be confined to a particular category or cause. We have focused on society as a whole and are doing what little we can to make the world a better place.',
     details: {
       title: 'MISCELLANEOUS',
       description:
