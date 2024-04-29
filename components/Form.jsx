@@ -72,6 +72,7 @@ const EnquireForm = () => {
                 value={project}
               >
                 <option>Select Project</option>
+                <option value="1956">1956</option>
                 <option value="Hummingbird">Hummingbird</option>
                 <option value="Grasshopper">Grasshopper</option>
                 <option value="Veda">Veda</option>

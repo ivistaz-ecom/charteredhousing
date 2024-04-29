@@ -3,8 +3,11 @@ import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 
 const csrDetails = ({ params }) => {
-  const filteredActivity = csrActivities.filter((item) => item.id == params.id)
-  const { title, description, table } = filteredActivity[0].details
+  const filteredActivity = csrActivities.filter(
+    (item) => item.slug == params.id
+  )
+  const { title, description, table1, table2, table3 } =
+    filteredActivity[0].details
 
   return (
     <>
@@ -35,7 +38,7 @@ const csrDetails = ({ params }) => {
             <table className="table border">
               <thead>
                 <tr>
-                  {table.head.map((heading) => {
+                  {table1.head.map((heading) => {
                     return (
                       <th scope="col" className="p-3">
                         {heading}
@@ -45,7 +48,61 @@ const csrDetails = ({ params }) => {
                 </tr>
               </thead>
               <tbody>
-                {table.rows.map((eachRow) => {
+                {table1.rows.map((eachRow) => {
+                  return (
+                    <tr>
+                      {eachRow.map((item) => {
+                        return <td className="border p-3">{item}</td>
+                      })}
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </Col>
+
+          <Col xs={12}>
+            <table className="table border mt-4">
+              <thead>
+                <tr>
+                  {table2.head.map((heading) => {
+                    return (
+                      <th scope="col" className="p-3">
+                        {heading}
+                      </th>
+                    )
+                  })}
+                </tr>
+              </thead>
+              <tbody>
+                {table2.rows.map((eachRow) => {
+                  return (
+                    <tr>
+                      {eachRow.map((item) => {
+                        return <td className="border p-3">{item}</td>
+                      })}
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </Col>
+
+          <Col xs={12}>
+            <table className="table border mt-4">
+              <thead>
+                <tr>
+                  {table3.head.map((heading) => {
+                    return (
+                      <th scope="col" className="p-3">
+                        {heading}
+                      </th>
+                    )
+                  })}
+                </tr>
+              </thead>
+              <tbody>
+                {table3.rows.map((eachRow) => {
                   return (
                     <tr>
                       {eachRow.map((item) => {

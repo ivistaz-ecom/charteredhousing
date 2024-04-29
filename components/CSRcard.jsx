@@ -2,7 +2,7 @@ import Image from 'next/image'
 import ContinueReadingBtn from './ContinueReadingBtn'
 
 const Card = ({ cardItems }) => {
-  const { id, imageUrl, title, description, alt } = cardItems
+  const { id, imageUrl, title, slug, description, alt } = cardItems
   return (
     <div className="card custom-card border-0" style={{ width: '28rem' }}>
       <Image
@@ -17,7 +17,7 @@ const Card = ({ cardItems }) => {
         <h5 className="card-title mb-3">{title}</h5>
         <p className="card-text">{description}</p>
 
-        <ContinueReadingBtn id={id} />
+        <ContinueReadingBtn slug={slug} />
       </div>
     </div>
   )

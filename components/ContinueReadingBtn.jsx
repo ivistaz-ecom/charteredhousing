@@ -2,10 +2,10 @@
 import { useRouter } from 'next/navigation'
 import { Button } from 'react-bootstrap'
 
-const ContinueReadingBtn = ({ id }) => {
+const ContinueReadingBtn = ({ slug }) => {
   const router = useRouter()
   const handleClick = () => {
-    router.push(`csr-activities/${id}`)
+    router.push(`csr-activities/${slug}`)
   }
   return (
     <Button

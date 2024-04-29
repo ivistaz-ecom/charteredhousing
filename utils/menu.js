@@ -4,13 +4,14 @@ export const csrActivities = [
     imageUrl: '/csr/Image 27.png',
     alt: 'Chartered Housing  - CSR Activities Nature',
     title: 'NATURE',
+    slug: 'nature',
     description:
       'We have always done our bit towards protecting the environment in all our projects. We plan and re-plan our projects so that we never displace natural formations or trees. Trees and plants were always transplanted, never felled. Areas that had natural rock formations and trees were converted to parks so that the natural balance…',
     details: {
       title: 'NATURE',
       description:
         'We have always done our bit towards protecting the environment in all our projects. We have planned and re-planned our projects so that we never displace natural formations or trees. Trees and plants were always transplanted, never felled. Areas that had natural rock formations and trees were converted to parks so that the natural balance could be preserved and everyone could take benefit from the green cover and the beauty.',
-      table: {
+      table1: {
         head: [
           'Rural',
           'No. Of Beneficiaries',
@@ -32,6 +33,14 @@ export const csrActivities = [
           ['General', 'Hundreds', 'NGO', 'Rathna Avenue & BBMP'],
         ],
       },
+      table2: {
+        head: [],
+        rows: [],
+      },
+      table3: {
+        head: [],
+        rows: [],
+      },
     },
   },
   {
@@ -39,13 +48,14 @@ export const csrActivities = [
     imageUrl: '/csr/Image 29.png',
     alt: 'Chartered Housing  - CSR Activities Rural',
     title: 'RURAL POPULACE',
+    slug: 'rural-populace',
     description:
       'Farmers are the lifeline of our country, which is why we have provided health and accident insurance to hundreds of them. We also support weekly health camps at various villages organized by SevanjaliPrathishthana. Women empowerment and youth welfare too have been our areas of interest.',
     details: {
       title: 'RURAL POPULACE',
       description:
         'Farmers are the lifeline of our country. Which is why we have provided health and accident insurance to hundreds of them. We also support weekly health camps at various villages organized by SevanjaliPrathishthana. Women empowerment and youth welfare too have been our areas of interest.',
-      table: {
+      table1: {
         head: [
           'Rural',
           'No. Of Beneficiaries',
@@ -65,6 +75,14 @@ export const csrActivities = [
           ],
         ],
       },
+      table2: {
+        head: [],
+        rows: [],
+      },
+      table3: {
+        head: [],
+        rows: [],
+      },
     },
   },
   {
@@ -72,13 +90,14 @@ export const csrActivities = [
     imageUrl: '/csr/Image 32.png',
     alt: 'Chartered Housing  - CSR Activities Education',
     title: 'EDUCATION',
+    slug: 'education',
     description:
       'We have always recognised that Education is powerful tool that helps facilitates great change in personal lives as well as the society. Which is why we support and take care of the educational needs of many children directly or indirectly with the help of NGOs.',
     details: {
       title: 'EDUCATION',
       description:
         'We have always recognised that Education is powerful tool that helps facilitates great change in personal lives as well as the society. Which is why, we support and take care of the educational needs of many children directly or indirectly with the help of NGOs.',
-      table: {
+      table1: {
         head: [
           'Education',
           'No. Of Beneficiaries',
@@ -110,6 +129,14 @@ export const csrActivities = [
           ],
         ],
       },
+      table2: {
+        head: [],
+        rows: [],
+      },
+      table3: {
+        head: [],
+        rows: [],
+      },
     },
   },
   {
@@ -117,13 +144,14 @@ export const csrActivities = [
     imageUrl: '/csr/Image 33.png',
     alt: 'Chartered Housing  - CSR Activities Medicine',
     title: 'MEDICAL AND HEALTH',
+    slug: 'medical-and-health',
     description:
       'Man’s true wealth is only health. That is the first prerequisite for success in any endeavour and we recognise that. We begin by taking care of those who work with us and extend our support to those who can’t afford quality health and medical care.',
     details: {
       title: 'MEDICAL AND HEALTH',
       description:
         'Man’s true wealth is only health. That’s the first prerequisite for success in any endeavour and we recognise that. We begin by taking care of those who work with us and extend our support to those who can’t afford quality health and medical care.',
-      table: {
+      table1: {
         head: [
           'Health & Medical',
           'No. Of Beneficiaries',
@@ -160,6 +188,14 @@ export const csrActivities = [
           ],
         ],
       },
+      table2: {
+        head: [],
+        rows: [],
+      },
+      table3: {
+        head: [],
+        rows: [],
+      },
     },
   },
   {
@@ -167,13 +203,14 @@ export const csrActivities = [
     imageUrl: '/csr/Culture.jpg',
     alt: 'Chartered Housing  - CSR Activities Nature',
     title: 'CULTURE',
+    slug: 'culture',
     description:
       'As Thomas Wolfe said, “Culture is the arts elevated to a set of beliefs.” These set of beliefs form the very backbone of our society, which is why we at Chartered Housing support various musicians, folk artists, sculptors and stage artists directly or indirectly through organisations that hep bring forward their creativity and skill to…',
     details: {
       title: 'CULTURE',
       description:
         'As Thomas Wolfe said, “Culture is the arts elevated to a set of beliefs.” These set of beliefs form the very backbone of our society, which is why we at Chartered Housing support various musicians, folk artists, sculptors and stage artists directly or indirectly through organisations that hep bring forward their creativity and skill to the people.',
-      table: {
+      table1: {
         head: [
           'Health & Medical',
           'No. Of Beneficiaries',
@@ -218,6 +255,14 @@ export const csrActivities = [
           ],
         ],
       },
+      table2: {
+        head: [],
+        rows: [],
+      },
+      table3: {
+        head: [],
+        rows: [],
+      },
     },
   },
   {
@@ -225,13 +270,14 @@ export const csrActivities = [
     imageUrl: '/csr/Image 39.png',
     alt: 'Chartered Housing  - CSR Activities Premaanjali Foundation',
     title: 'THE PREMAANJALI FOUNDATION',
+    slug: 'the-premaanjali-foundation',
     description:
       '‘Premaanjali’ which means ‘an offering of love’ is a foundation dedicated to transforming the lives of homeless and destitute children and also the visually impaired. The goal of Premaanjali is to touch the lives of those who have the will but not the means to achieve their dreams. Varied Schemes As Chairman Of Charitable…',
     details: {
       title: 'THE PREMAANJALI FOUNDATION',
       description:
         '‘Premaanjali’ which means ‘an offering of love’ is a foundation dedicated to transforming the lives of homeless and destitute children and also the visually impaired. The goal of Premaanjali is to touch the lives of those who have the will but not the means to achieve their dreams.',
-      table: {
+      table1: {
         head: [
           'Varied Schemes As Chairman Of Charitable Trust',
           'No. Of Beneficiaries',
@@ -274,6 +320,14 @@ export const csrActivities = [
           ],
         ],
       },
+      table2: {
+        head: [],
+        rows: [],
+      },
+      table3: {
+        head: [],
+        rows: [],
+      },
     },
   },
   {
@@ -281,13 +335,14 @@ export const csrActivities = [
     imageUrl: '/csr/Image 40.png',
     alt: 'Chartered Housing  - CSR Activities Miscellaneous',
     title: 'MISCELLANEOUS',
+    slug: 'miscellaneous',
     description:
       'Our contributions cannot be confined to a particular category or cause. We have focused on society as a whole and are doing what little we can to make the world a better place.',
     details: {
       title: 'MISCELLANEOUS',
       description:
         'Our contributions cannot be confined to a particular category or cause. We have focused on society as a whole and are doing what little we can to make the world a better place. Take a look at our other endeavours below:',
-      table: {
+      table1: {
         head: [
           'Miscellaneous',
           'No. Of Beneficiaries',
@@ -343,6 +398,38 @@ export const csrActivities = [
             'Ramakrishna Vivekananda Ashram, Shakti Veda Wellness',
           ],
           ['Support To Tribals', 'Hundreds', 'NGO', 'Vanavasi Kalyana (HSP)'],
+        ],
+      },
+      table2: {
+        head: [
+          'Sports',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          [
+            'Support To Polio Affected Athlete For Participation In Para Olympics & Go Carting etc',
+            'A Few',
+            'Direct',
+            '',
+          ],
+        ],
+      },
+      table3: {
+        head: [
+          'Roads',
+          'No. Of Beneficiaries',
+          'Direct / Through NGO',
+          'NGO / Organisation',
+        ],
+        rows: [
+          [
+            'Roads – 4 Roads – Nearly 4 kms',
+            'Residents',
+            'Direct',
+            'Albert Street, Rathna Avenue, Gubbalala, Uttarahally',
+          ],
         ],
       },
     },

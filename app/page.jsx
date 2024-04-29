@@ -93,7 +93,7 @@ const Home = () => {
                 QUALITY through <br /> TRANSPARENCY
               </h1>
               <div className="horizontal-line mb-4" />
-              <p className="mt-4 mt-md-5">
+              <p className="mt-4 mt-md-0">
                 Drawing inspiration from our philosophy, we have conceived our
                 corporate tagline.
               </p>

@@ -131,7 +131,7 @@ const page = () => {
           </Col>
         </Row>
         <Container className="p-5">
-          <Row className="ps-5 pe-5">
+          <Row className="px-lg-5">
             <Col>
               <h1>AMENITIES</h1>
               <div className="horizontal-line" />
@@ -141,7 +141,7 @@ const page = () => {
 
         <Row>
           <Col>
-            <div className="amenities-bg hummingbird mt-4">
+            <div className="amenities-bg hummingbird">
               <ul className="amenities-item-con m-0 p-0">
                 {amenities.map((item) => {
                   return (

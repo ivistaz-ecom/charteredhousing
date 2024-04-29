@@ -59,8 +59,8 @@ const page = () => {
               CHARTERED HOUSING <br className="d-none d-md-block" /> VISION AND
               MISSION
             </h1>
-            <div className="horizontal-line" />
-            <p className="mt-5">
+            <div className="horizontal-line mb-4" />
+            <p className="">
               After a journey of over three decades, multiple challenging
               projects, and dealing with the volatile real estate market, we
               believe a strong foundation results in success and excellence.
