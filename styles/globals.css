@@ -375,7 +375,6 @@ body {
   margin-bottom: 15px;
   color: #fff;
   cursor: pointer;
-  height: auto;
   :hover {
     background-color: #fff;
     color: #000;
@@ -397,8 +396,10 @@ body {
   }
 }
 
-.content-con {
-  height: 235px;
+@media screen and (min-width: 992px) {
+  .content-con {
+    height: 360px;
+  }
 }
 
 .list-con {

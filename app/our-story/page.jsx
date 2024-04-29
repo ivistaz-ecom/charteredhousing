@@ -74,10 +74,10 @@ const page = () => {
           <Col>
             <div className="d-flex flex-column flex-lg-row">
               <div className="vision-con me-lg-2">
-                <div className="p-4 mt-5 content-con">
-                  <p className="fs-4">Vision</p>
+                <div className="p-4 content-con">
+                  <p className="fs-3">Vision</p>
                   <ul className="list-con">
-                    <li>
+                    <li className="fs-6">
                       To be recognised among the leading real estate firms in
                       the country by building quality residential and commercial
                       structures.
@@ -86,31 +86,33 @@ const page = () => {
                 </div>
               </div>
               <div className="vision-con mission-con ms-lg-2 pt-5">
-                <div className="p-4 mt-5 content-con">
-                  <p className="fs-4">Mission</p>
+                <div className="p-4">
+                  <p className="fs-3">Mission</p>
                   <div className="d-flex gap-3">
                     <ul className="list-con">
-                      <li>
+                      <li className="fs-6">
                         To strive and build high-quality residential structures
                         and pursue commercial spaces as well.
                       </li>
 
-                      <li>
+                      <li className="fs-6">
                         To work towards enhancing the quality by incorporating
                         proper systems.
                       </li>
-                      <li>
+                      <li className="fs-6">
                         To diversify into the Hospitality sector and establish
                         ourselves in Infrastructure development.
                       </li>
                     </ul>
                     <ul className="list-con">
-                      <li>To offer the best services for sale and lease.</li>
-                      <li>
+                      <li className="fs-6">
+                        To offer the best services for sale and lease.
+                      </li>
+                      <li className="fs-6">
                         To grow and expand our reach to other cities outside
                         Bangalore.
                       </li>
-                      <li>
+                      <li className="fs-6">
                         To look into backward integration in
                         construction-related products.
                       </li>
