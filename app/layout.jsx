@@ -9,9 +9,9 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preload" href="https://fonts.googleapis.com" />
         <link
-          rel="preconnect"
+          rel="preload"
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
@@ -24,10 +24,10 @@ const RootLayout = ({ children }) => {
           rel="stylesheet"
         />
         <Script
-          rel="preload"
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
+          defer
         ></Script>
       </head>
       <body>
