@@ -146,10 +146,12 @@ const Home = () => {
       </Container>
 
       <Container fluid>
-        <Row className="d-flex flex-column flex-lg-row mt-4">
-          {leadership.map((item) => (
-            <Leadership key={item.id} leadershipDetails={item} />
-          ))}
+        <Row>
+          <Col className="leadership-con mt-4">
+            {leadership.map((item) => (
+              <Leadership key={item.id} leadershipDetails={item} />
+            ))}
+          </Col>
         </Row>
       </Container>
     </>

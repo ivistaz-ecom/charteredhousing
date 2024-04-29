@@ -330,13 +330,27 @@ body {
   }
 }
 
-.leader-bg {
-  background-color: #eaeaea;
-  margin-top: -75px;
-  height: auto;
+.leadership-con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 75%;
 }
 
 @media screen and (min-width: 992px) {
+  .leadership-con {
+    flex-direction: row;
+  }
+}
+
+.leader-bg {
+  background-color: #eaeaea;
+  margin-top: -75px;
+  flex: 1;
+  height: 90%;
+}
+
+/* @media screen and (min-width: 992px) {
   .leader-bg {
     min-height: 550px;
   }
@@ -345,7 +359,7 @@ body {
 .leader-bg > * {
   height: 50%;
   display: flex;
-}
+} */
 
 .leader-name {
   color: var(--red-color);
