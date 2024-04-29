@@ -37,7 +37,6 @@ const Blogs = ({ blogsItem }) => {
             <Image
               src={imageUrl}
               alt={name}
-              loading="lazy"
               width={1000}
               height={500}
               layout="responsive"
