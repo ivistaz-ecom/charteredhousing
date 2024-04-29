@@ -15,7 +15,7 @@ const Leader = ({ leader }) => {
   return (
     <div className="d-flex flex-column align-items-center align-items-lg-start flex-lg-row mb-5">
       <div className="profile-con me-5">
-        <Image src={imageUrl} alt={alt} width={250} height={350} />
+        <Image src={imageUrl} alt={alt} width={265} height={355} />
         <p className="leader-name mb-1 mt-3">{name}</p>
         <p className="fs-6 mt-0">{post}</p>
       </div>

@@ -876,10 +876,10 @@ export const leadership = [
     imageUrl: '/homePage/Mask Group 241.png',
     arrowUrl: '/homePage/Arrow.png',
     alt: 'Mr A Balakrishna Hegde, Managing Director at Chartered Housing',
-    name: 'Mr. BALAKRISHNA HEGDE',
-    post: 'Founder and Managing Director',
+    name: 'Mr. AERYA BALAKRISHNA HEGDE',
+    post: 'Founder and Chairman',
     description:
-      'A banker, Mr. Balakrishna Hegde decided to take the plunge into the world of entrepreneurship. He founded Chartered Leasing – a financial company, in 1983. Six years on, he set foot in the real estate world with Chartered Housing. Today, it is an integral part of the Chartered Group, which includes Chartered Properties. Currently, he is an executive member of the National Governing Council of CREDAI.',
+      'Aerya Balakrishna Hegde founded the Chartered group in 1988 after working for a Bank for 12 years. He steers the group with steadfast values & principles. Immaculate in whatever he does, he is forever aiming for perfection. His favourite statement is, "Do not engage in an Image building. If we build ourselves strong, the Image will naturally be strong”. He mentors his team focussing on honesty and meticulousness and these values can be perceived easily in every aspect of Group’s activities.',
   },
   {
     id: 2,
@@ -887,19 +887,19 @@ export const leadership = [
     arrowUrl: '/homePage/Arrow.png',
     alt: 'Ms BIMAL Hegde Shetty, Chief Executive Officer',
     name: 'Mr. BIMAL HEGDE',
-    post: 'Chief Executive Officer',
+    post: 'Managing Director',
     description:
-      'Bimal Hegde is the driving force behind Chartered Housing’s strong credibility. Joining the team in 2007, it took him just 8 years to make Chartered Housing a reputed name. Well versed in Architecture and Marketing, Bimal’s portfolio includes various specialties. As for recognition, he was chosen as President of the CREDAI Youth Wing (Karnataka Chapter). His recent initiatives include spearheading Chartered Hummingbird and Chartered Grasshoppers.',
+      'Bimal Hegde holds an MBA from Lancaster University, UK and a Degree in Architecture from RV School of Architecture, Bangalore. He has deep exposure to Real Estate since 2007 when he joined Chartered. He spearheads various departments such as Design, Marketing, Sales, Business Development & many more at Corporate level. He believes passionately in the ethical business practices, absolute transparency and highest quality standards that Chartered always stood for.',
   },
   {
     id: 3,
     imageUrl: '/homePage/Mask Group 276.png',
     arrowUrl: '/homePage/Arrow.png',
     alt: 'Ms Bhakti Hegde Shetty, Director at Chartered Housing',
-    name: 'Ms. BHAKTI HEGDE SHETTY',
-    post: 'Director',
+    name: 'Ms. BHAKTI HEGDE',
+    post: 'Executive Director',
     description:
-      'Spearheading Chartered Interiors – a division that offers a complete dream-home experience, Ms. Bhakti has helped Chartered Interiors reach new heights. Dynamic in her approach, she’s recognized for consumer understanding. Other skills include eye-for-detail, craft, quality enhancement and maintaining relationships. What’s more, her experience, knowledge, and eagerness to know about the latest trends in interior design have propelled Chartered Interiors to great heights.',
+      'Bhakti Hegde, by qualification, is a Law graduate. She heads the Interiors division ever since she entered Chartered in 2010. In addition, she also leads the legal and facilities management departments. She firmly believes that experience trumps over qualification. The interiors division under her stewardship has completed over a 100 projects. She takes pride in giving her clients homes that do not get outdated by keeping abreast with the changing trends while maintaining functionality.',
   },
 ]
 
@@ -908,8 +908,8 @@ export const leaders = [
     id: 1,
     imageUrl: '/leader/image1.png',
     alt: 'Mr A Balakrishna Hegde, Managing Director at Chartered Housing',
-    name: 'Mr. BALAKRISHNA HEGDE',
-    post: 'Founder and Managing Director',
+    name: 'Mr. AERYA BALAKRISHNA HEGDE',
+    post: 'Founder and Chairman',
     heading1: 'REAL ESTATE INVESTMENTS; AN EXCEPTIONAL WAY TO MAXIMISE PROFITS',
     description1:
       'Aerya Balakrishna Hegde founded the Chartered Group in 1988 after working for a Bank for 12 years. He steers the group with steadfast values & principles. Immaculate in whatever he does, he is forever aiming for perfection. His favourite statement is, “Do not engage in an Image building. If we build ourselves strong, the Image will naturally be strong”. He mentors his team focusing on honesty and meticulousness and these values can be perceived easily in every aspect of the Group’s activities.',
