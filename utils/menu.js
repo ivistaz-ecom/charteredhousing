@@ -834,12 +834,12 @@ export const grasshopperProject = [
   },
   {
     id: 3,
-    imageUrl: '/grasshopper/Project image 1.jpg',
+    imageUrl: '/grasshopper/Project image 3.jpg',
     altText: 'Chartered Grasshopper - Third Villas Floor Plan',
   },
   {
     id: 4,
-    imageUrl: '/grasshopper/Project image 2.jpg',
+    imageUrl: '/grasshopper/Project image 1.jpg',
     altText: 'Chartered Grasshopper - Forth Villas Floor Plan',
   },
 ]
