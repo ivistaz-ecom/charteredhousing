@@ -338,7 +338,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .leader-bg {
-    height: 550px;
+    min-height: 550px;
   }
 }
 
