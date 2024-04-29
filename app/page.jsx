@@ -39,7 +39,7 @@ const Home = () => {
           </h1>
 
           <div className="horizontal-line" />
-          <div className="py-5 pe-5 w-75 mt-5 chartered-housing-about">
+          <div className="py-5 pe-5 w-75 mt-5 d-none d-lg-block">
             <p className="w-50 mt-5">
               The Chartered group was established in 1983 with Finance, Hire
               Purchase and Leasing as its core business. Chartered Leasing, was
