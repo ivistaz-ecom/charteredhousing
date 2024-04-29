@@ -40,8 +40,8 @@ const page = () => {
             </div>
           </Col>
         </Row>
-        <Row className="ms-5 ps-5">
-          <Col className="d-flex pb-5 ps-5 gap-4 flex-wrap">
+        <Row className="ms-lg-5 ps-lg-5">
+          <Col className="d-flex pb-5 ps-lg-5 gap-4 flex-wrap">
             {csrActivities.map((item) => (
               <Card key={item.id} cardItems={item} />
             ))}
