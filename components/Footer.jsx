@@ -75,30 +75,29 @@ const Footer = () => {
       <section>
         <div className="footer-bg2 text-center p-3 p-md-4 d-flex flex-column flex-md-row justify-content-between">
           <p className="mb-0">©2024 Chartered Housing. All Rights Reserved.</p>
-          <div>
-            <p className="mb-0">
-              <Link
-                className="text-decoration-none text-white underline-on-hover"
-                href="privacy-policy"
-              >
-                Privacy Policy
-              </Link>{' '}
-              |{' '}
-              <Link
-                className="text-decoration-none text-white underline-on-hover"
-                href="/disclaimer"
-              >
-                Disclaimer
-              </Link>{' '}
-              |{' '}
-              <Link
-                className="text-decoration-none text-white underline-on-hover"
-                href="/sitemap"
-              >
-                Sitemap
-              </Link>
-            </p>
-          </div>
+
+          <p className="mb-0">
+            <Link
+              className="text-decoration-none text-white underline-on-hover"
+              href="privacy-policy"
+            >
+              Privacy Policy
+            </Link>{' '}
+            |{' '}
+            <Link
+              className="text-decoration-none text-white underline-on-hover"
+              href="/disclaimer"
+            >
+              Disclaimer
+            </Link>{' '}
+            |{' '}
+            <Link
+              className="text-decoration-none text-white underline-on-hover"
+              href="/sitemap"
+            >
+              Sitemap
+            </Link>
+          </p>
         </div>
       </section>
     </>

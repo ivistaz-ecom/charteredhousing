@@ -20,20 +20,19 @@ const page = () => {
         MetaImage={MetaImage}
         url={url}
       />
-      <section className="mb-lg-5">
-        <div>
-          <Image
-            src="/bannerImage/OngoingBanner.png"
-            alt="Chartered Housing Ongoing Apartment Project in Bangalore"
-            className="responsive-image"
-            width={1000}
-            height={500}
-          />
-        </div>
-      </section>
 
-      <Container className="mt-3 mt-lg-5 p-4 p-lg-5">
-        <Row className="px-3 px-lg-5 mb-4">
+      <div>
+        <Image
+          src="/bannerImage/OngoingBanner.png"
+          alt="Chartered Housing Ongoing Apartment Project in Bangalore"
+          className="responsive-image"
+          width={1000}
+          height={500}
+        />
+      </div>
+
+      <Container className="mt-4 pb-2 mt-lg-5 p-lg-5">
+        <Row className="px-lg-5 mb-4">
           <Col xs={12} md={6}>
             <h1>
               ONGOING <br /> PROJECTS
@@ -65,7 +64,7 @@ const page = () => {
           <Col>
             <SliderCon imageUrls={ongoingProject} />
 
-            <div className="m-4 m-lg-5 px-5">
+            <div className="m-4 m-lg-5 px-lg-5">
               <h1>THE STORY</h1>
               <div className="horizontal-line mb-4" />
               <p>
@@ -81,7 +80,7 @@ const page = () => {
               </p>
             </div>
 
-            <div className="m-4 m-lg-5 px-5">
+            <div className="m-4 m-lg-5 px-lg-5">
               <h3 className="fw-light mb-3">HIGHLIGHTS</h3>
               <div className="highlight-border p-3">
                 <p>
@@ -100,9 +99,9 @@ const page = () => {
               </div>
             </div>
 
-            <div className="m-4 m-lg-5 px-5">
+            <div className="m-4 m-lg-5 px-lg-5">
               <h3 className="fw-light mb-3">PROJECT DETAILS</h3>
-              <div className="highlight-border p-3">
+              <div className="highlight-border p-lg-3">
                 <ul className="d-flex flex-wrap project-details-list-con">
                   <li>9-floor apartment</li>
                   <li>7 boutique apartments, 1 each floor</li>
@@ -119,8 +118,8 @@ const page = () => {
             </div>
           </Col>
         </Row>
-        <Container className="p-5">
-          <Row className="ps-5 pe-5">
+        <Container className="py-3 p-lg-5">
+          <Row className="px-lg-5">
             <Col>
               <h1>AMENITIES</h1>
               <div className="horizontal-line" />
