@@ -37,9 +37,9 @@ const Home = () => {
           <h1>
             CHARTERED <br /> HOUSING
           </h1>
-
           <div className="horizontal-line" />
-          <div className="py-5 pe-5 w-75 mt-5 d-none d-lg-block">
+
+          <div className="py-5 pe-5 w-75 mt-5 d-none d-md-block">
             <p className="w-50 mt-5">
               The Chartered group was established in 1983 with Finance, Hire
               Purchase and Leasing as its core business. Chartered Leasing, was
@@ -52,7 +52,7 @@ const Home = () => {
 
       <Container>
         <Row>
-          <Col sm={12} lg={7} className="ms-auto me-5 mb-4">
+          <Col sm={12} lg={7} className="ms-auto mb-4">
             <p>
               We embarked into development of Residential Apartments in 1989.
               The first project Chartered Resorts was a trendsetter which
@@ -81,14 +81,14 @@ const Home = () => {
               <Image
                 src="/homePage/Mask Group 261.png"
                 alt="Apartments With Swimming Pool - Chartered Hummingbird"
-                width={600}
-                height={420}
-                className="me-5"
+                width={500}
+                height={375}
+                className="me-lg-5"
               />
             </div>
           </Col>
           <Col xs={12} lg={5}>
-            <div className="align-self-center ms-md-5 mt-5">
+            <div className="align-self-center ms-md-5 mt-lg-5 mt-4">
               <h1>
                 QUALITY through <br /> TRANSPARENCY
               </h1>
@@ -135,9 +135,9 @@ const Home = () => {
       <Container>
         <Row>
           <Col className="mt-5 mt-md-0">
-            <div className="text-center pt-5 pt-md-3">
-              <h1 className="">LEADERSHIP</h1>
-              <p className="fs-5">
+            <div className="text-center pt-md-3">
+              <h1>LEADERSHIP</h1>
+              <p className="">
                 Steering Chartered Housing towards new horizons
               </p>
             </div>

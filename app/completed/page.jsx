@@ -56,7 +56,7 @@ const page = () => {
       <Container className="mt-3 mt-lg-5">
         <Row>
           <Col>
-            <ul className="d-flex justify-content-center flex-wrap project-custom-border p-3 pb-0">
+            <ul className="completed-project-con p-3 pb-0">
               {projectsMenu.map((item) => (
                 <Projects key={item.id} projectDetails={item} />
               ))}

@@ -4,7 +4,7 @@ import { Col } from 'react-bootstrap'
 
 const Leadership = ({ leadershipDetails }) => {
   return (
-    <div className="p-4">
+    <div className="pt-3 pb-4 p-lg-4">
       <Image
         src={leadershipDetails.imageUrl}
         alt={leadershipDetails.alt}

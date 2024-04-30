@@ -73,12 +73,10 @@ const Footer = () => {
         </Container>
       </div>
       <section>
-        <div className="footer-bg2 text-center p-4 d-flex flex-column flex-md-row justify-content-between">
+        <div className="footer-bg2 text-center p-3 p-md-4 d-flex flex-column flex-md-row justify-content-between">
+          <p className="mb-0">©2024 Chartered Housing. All Rights Reserved.</p>
           <div>
-            <p>©2024 Chartered Housing. All Rights Reserved.</p>
-          </div>
-          <div>
-            <p>
+            <p className="mb-0">
               <Link
                 className="text-decoration-none text-white underline-on-hover"
                 href="privacy-policy"

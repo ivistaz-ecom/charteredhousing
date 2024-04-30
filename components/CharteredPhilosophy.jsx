@@ -5,14 +5,14 @@ const CharteredPhilosophy = () => {
   return (
     <div className="chartered-philosophy-con">
       <Container>
-        <Row className="d-flex flex-column flex-lg-row justify-content-between align-items-center p-3 p-lg-5 mx-4">
+        <Row className="d-flex flex-column flex-lg-row justify-content-between align-items-center py-3 p-lg-5 mx-lg-4">
           <Col>
             <Image
               src="/homePage/Group 49823.svg"
               alt="Chartered Housing Philosophy"
               width={300}
               height={225}
-              className="mb-3 mb-lg-4"
+              className="mb-2 mb-lg-4"
             />
           </Col>
 
@@ -21,7 +21,7 @@ const CharteredPhilosophy = () => {
           </Col>
 
           <Col xs={12} lg={5}>
-            <div className="mt-4">
+            <div className="mt-3 mt-lg-4">
               <p className="fst-italic">
                 What man conceives in his mind, that he expresses through
                 speech, and that he does by deed. -
