@@ -20,20 +20,18 @@ const page = () => {
         url={url}
       />
 
-      <section className="mb-lg-5">
-        <div>
-          <Image
-            src="/bannerImage/CompletedBanner.png"
-            alt="Apartments For Sale in Kanakapura Road, Bangalore"
-            className="responsive-image"
-            width={1000}
-            height={500}
-          />
-        </div>
-      </section>
+      <div>
+        <Image
+          src="/bannerImage/CompletedBanner.png"
+          alt="Apartments For Sale in Kanakapura Road, Bangalore"
+          className="responsive-image"
+          width={1000}
+          height={500}
+        />
+      </div>
 
-      <Container className="mt-3 mt-lg-5 p-4 p-lg-5">
-        <Row className="px-3 px-lg-5">
+      <Container className="mt-4 pb-2 mt-lg-5 p-lg-5">
+        <Row className="px-lg-5 mb-4">
           <Col xs={12} md={6}>
             <h1>
               COMPLETED <br /> PROJECTS
@@ -53,7 +51,7 @@ const page = () => {
         </Row>
       </Container>
 
-      <Container className="mt-3 mt-lg-5">
+      <Container className="mt-lg-5">
         <Row>
           <Col>
             <ul className="completed-project-con p-3 pb-0">
