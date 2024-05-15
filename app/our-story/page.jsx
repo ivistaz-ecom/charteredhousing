@@ -19,19 +19,18 @@ const page = () => {
         MetaImage={MetaImage}
         url={url}
       />
-      <section className="mb-lg-5">
-        <div>
-          <Image
-            src="/bannerImage/OurStoryBanner.png"
-            className="responsive-image"
-            width={1000}
-            height={500}
-          />
-        </div>
-      </section>
 
-      <Container className="mt-3 mt-lg-5 p-4 p-lg-5">
-        <Row className="px-3 px-lg-5">
+      <div>
+        <Image
+          src="/bannerImage/OurStoryBanner.png"
+          className="responsive-image"
+          width={1000}
+          height={500}
+        />
+      </div>
+
+      <Container className="mt-4 pb-2 mt-lg-5 p-lg-5">
+        <Row className="px-lg-5">
           <Col xs={12} md={6}>
             <h1>
               OUR <br className="d-none d-md-block" /> STORY
@@ -55,7 +54,7 @@ const page = () => {
               As we set foot into another decade, we wish to aim higher, deliver
               better and delight more by offering Quality through Transparency.
             </p>
-            <h1 className="mt-5">
+            <h1 className="mt-4">
               CHARTERED HOUSING <br className="d-none d-md-block" /> VISION AND
               MISSION
             </h1>

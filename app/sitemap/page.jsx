@@ -55,7 +55,7 @@ const page = () => {
                 {' '}
                 <Link
                   className="text-decoration-none underline-on-hover text-black"
-                  href="/bangalore-kanakapura-road"
+                  href="/bangalore/apartments-on-kanakapura-road"
                 >
                   Kanakapura Road
                 </Link>
@@ -63,7 +63,7 @@ const page = () => {
               <li>
                 <Link
                   className="text-decoration-none underline-on-hover text-black"
-                  href="/bangalore-electronic-city"
+                  href="/bangalore/luxury-villas-in-electronic-city"
                 >
                   Electronic City
                 </Link>
@@ -71,7 +71,7 @@ const page = () => {
               <li>
                 <Link
                   className="text-decoration-none underline-on-hover text-black"
-                  href="/bangalore-nelamangala"
+                  href="/bangalore/plots-in-nelamangala"
                 >
                   Nelamangala
                 </Link>
@@ -79,7 +79,7 @@ const page = () => {
               <li>
                 <Link
                   className="text-decoration-none underline-on-hover text-black"
-                  href="/bangalore-kanakapura-road"
+                  href="/bangalore/apartments-on-kanakapura-road"
                 >
                   Chartered Hummingbird
                 </Link>
@@ -87,7 +87,7 @@ const page = () => {
               <li>
                 <Link
                   className="text-decoration-none underline-on-hover text-black"
-                  href="/bangalore-electronic-city"
+                  href="/bangalore/luxury-villas-in-electronic-city"
                 >
                   Chartered Grasshopper
                 </Link>
@@ -95,7 +95,7 @@ const page = () => {
               <li>
                 <Link
                   className="text-decoration-none underline-on-hover text-black"
-                  href="/bangalore-nelamangala"
+                  href="/bangalore/plots-in-nelamangala"
                 >
                   Chartered Veda
                 </Link>
@@ -123,7 +123,7 @@ const page = () => {
               <li>
                 <Link
                   className="text-decoration-none underline-on-hover text-black"
-                  href="/"
+                  href="/about"
                 >
                   TEAM
                 </Link>
@@ -134,22 +134,6 @@ const page = () => {
                   href="/our-story"
                 >
                   AWARDS & RECOGNITIONS
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-decoration-none underline-on-hover text-black"
-                  href="/"
-                >
-                  TESTIMONIALS
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-decoration-none underline-on-hover text-black"
-                  href="/blog"
-                >
-                  BLOG
                 </Link>
               </li>
               <li>
